@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-menu {
+        display: flex;
+
+    }
+
+    .main-menu>li {
+        border-right: 1px solid white;
+    }
+
+    li {
+        padding: 20px 50px;
+        color: white;
+        background-color: red;
+        height: fit-content;
+    }
+
+    .cate>li {
+        border-bottom: 1px solid white;
+        width: max-content;
+
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu>ul {
+        position: absolute;
+        left: 0;
+        top: 60px;
+    }
+    .leona{
+        position: relative;
+    }
+    .leona>ul{
+        position: absolute;
+       margin-left: 80%;
+       top: 0;
+    }
+    .mona>li{
+        border-bottom: 1px solid white;
+        width: max-content;
+
+    }
+    
+</style>
+
+<body>
+    <div>
+        <ul class="main-menu">
+            <li>menu1</li>
+            <li class="menu">menu2
+                <ul class="cate">
+                    <li>leonado devanci 1</li>
+                    <li class="leona">leonado devanci 2
+                        <ul class="mona">
+                            <li>mona lisa 1</li>
+                            <li>mona lisa 2</li>
+                            <li>mona lisa 3</li>
+                            <li>mona lisa 4</li>
+                        </ul>
+                    </li>
+                    <li>leonado devanci 3</li>
+                    <li>leonado devanci 4</li>
+                    <li>leonado devanci 5</li>
+                </ul>
+            </li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
