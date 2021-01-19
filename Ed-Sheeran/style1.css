@@ -153,5 +153,14 @@ button:hover .div-ao{
     line-height: 1;
 
 }
-   
+.img1{
+    box-sizing: border-box;
+    display: flex;
+
+}
+.img-1:hover img{
+    transform: scale(1);
+    transition: all 0.6s ease-out 0s;
+
+}
  
