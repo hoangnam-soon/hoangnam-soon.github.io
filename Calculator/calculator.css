@@ -31,7 +31,6 @@
     height: 100%;
 }
 .phep_tinh,.number,.cham{
-    box-sizing: border-box;
     border: none;
     border-radius: 3px;
     width: 70px;
@@ -40,6 +39,8 @@
     font-size: 30px;
 }
 .number0{
+    border: none;
+    border-radius: 3px;
     background-color: chocolate;
     width: 155px;
     height:70px;
