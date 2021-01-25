@@ -1,0 +1,60 @@
+#main{
+    width: 350px;
+    height: 550px;
+    background: #eaedef;
+    top : 20px;
+    padding: auto;
+    border: 2px black solid;
+    border-radius: 3px;
+    position: relative;
+}
+#ket_qua{
+    height: 120px;
+
+}
+#ket_qua_cu{
+    text-align: right;
+    height: 20px;
+    font-size: 20px;
+    color:#695c5c;
+    margin: 0 20px;
+    padding-top: 15px;
+}
+#xuat_ket_qua{
+    text-align: right;
+    font-size: 30px;
+    height: 30px;
+    margin: 10px 20px;
+}
+#keys{
+    width: 100%;
+    height: 100%;
+}
+.phep_tinh,.number,.cham{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height:70px;
+    margin: 5px;
+    font-size: 30px;
+}
+.number0{
+    background-color: chocolate;
+    width: 155px;
+    height:70px;
+    margin: 5px;
+    font-size: 30px;
+}
+.phep_tinh{
+    background-color: orange;
+}
+.number{
+    background-color: darkgrey;
+}
+.cham{
+background-color: darkgrey;
+}
+
+
+

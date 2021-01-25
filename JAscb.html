@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<script>
+    function soNguyen(number) {
+        if (typeof number !== "number") {
+            alert('Tùng là chó')
+            return
+        } else {
+            document.write(number)
+        }
+
+    }
+    soNguyen(1739)
+
+    document.write('<br/>')
+
+    function tinhTong(n) {
+        let tong = 0
+        for (i = 0; i <= n; i++) {
+
+            tong = tong + i
+
+        }
+        document.write(tong)
+
+    }
+    tinhTong(5)
+    document.write('<br/>')
+    function tinhTrungBinh(a) {
+        let tong1 = 0
+        let tbc = 0
+        for (i = 0; i <= a; i++) {
+            tong1 = tong1 + i
+
+            tbc = tong1 / a
+        } document.write(tbc)
+
+    }
+    tinhTrungBinh(5)
+    document.write('<br/>')
+    function giaiThua(b) {
+        let gt = 1
+        for (i = 1; i <= b; i++) {
+            gt = gt * i
+        } document.write(gt)
+
+    }
+    giaiThua(5)
+    document.write('<br/>')
+    // Viết hàm cho phép truyền vào 1 mảng các số, kết quả trả về là 1 mảng mới chỉ chứa các số
+    // chẵn trong mảng cũ và được sắp xếp theo thứ tự giảm dần.
+    function hamTruyen(arr) {
+        let newArr = []
+        let n = arr.length
+
+        for (i = 0; i <= n; i++) {
+            if (arr[i] % 2 == 0) {
+                newArr.push(arr[i])
+            }
+        }
+        newArr = newArr.sort(function (a, b) { return b - a })
+        document.write(newArr)
+    }
+    hamTruyen([6, 3, 2, 4, 8, 10])
+    document.write('<br/>')
+    function today() {
+        var now = new Date();
+        var date = now.getDate();
+        var month = now.getMonth() + 1;
+        var year = now.getFullYear();
+        document.write(now)
+    } today()
+    document.write('<br/>')
+    //     Bài 2. Một sinh viên có điểm kiểm tra môn lập trình web là x dưới dạng số (0 <= x <= 10). Hãy chuyển điểm số sang dạng chữ với điều kiện sau:
+
+    // Từ 8.5 đến 10: Điểm A
+    // Từ 7 đến dưới 8.5: Điểm B
+    // Từ 5.5 đến dưới 7: Điểm C
+    // Từ 4 đến dưới 5.5: Điểm D
+    // Từ 0 đến dưới 4: Điểm F
+    function diemHoc(diem) {
+        var ten
+        switch (true) {
+            case diem >= 8.5 && diem <= 10:
+                ten = "A";
+                break;
+            case diem >= 7 && diem <= 8.5:
+                ten = "B";
+                break;
+            case diem >= 5.5 && diem <= 7:
+                ten = "C";
+                break;
+            case diem >= 4 && diem <= 5.5:
+                ten = "D";
+                break;
+            case diem >= 0 && diem <= 4:
+                ten = "F";
+                break;
+
+        }
+        document.write(ten)
+    }
+    diemHoc(7)
+    document.write('<br/>')
+    // Bài 3. Viết hàm translate() có tác dụng dịch từ "Hello" sang 5 thứ tiếng khác nhau (tự chọn) với tham số truyền vào là mã quốc gia, sử dụng switch và mặc định dịch sang tiếng Việt.
+function translate(code){
+    var lang
+    switch (code) {
+            case 'vn':
+                lang = "Xin Chào";
+                break;
+            case 'japan':
+                lang = "おはようございます。";
+                break;
+            case 'kr':
+                lang = "안녕하세요";
+                break;
+            case 'E':
+                lang = "Hello";
+                break;
+            case 'trung':
+                lang = "你 好！";
+                break;
+
+        }document.write(lang)
+}
+translate('japan')
+document.write('<br/>')
+// Bài 4. Cho 1 mảng chỉ gồm các giá trị true và false (kiểu boolean). Hãy kiểm tra xem giá trị true xuất hiện lần đầu trong mảng ở vị trí nào. ( sử dụng typeof === 'boolean'
+function firstTime(mang){
+    var n=firstTime.length
+    for(i=0;i<=n;i++){
+        if(typeof mang[i]!=='boolean' && typeof mang[i]!=='boolean'){
+        alert( 'Tùng óc chó')
+        return
+    }
+    }
+   document.write(mang[0])
+}
+firstTime([false,true,false,])
+document.write('<br/>')
+function clickdoimau(){
+    document.getElementById('menu1').style.backgroundColor = 'black'
+    document.getElementById('menu2').style.backgroundColor = 'red'
+    document.getElementById('menu3').style.backgroundColor = 'orange'
+}
+</script>
+
+<body>
+    <button onClick="clickdoimau()">Click</button>
+    <div id="menu1"> Đoạn văn 1</div>
+    <div id="menu2"> đoạn văn 2</div>
+    <div id="menu3"> đoạn văn 4</div>
+    
+</body>
+
+</html>
