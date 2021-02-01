@@ -1,43 +1,43 @@
 var current = null
 let cards= [
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/1.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/1.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '1'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/2.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/2.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '2'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/3.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/3.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '3'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/4.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/4.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '4'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/5.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/5.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '5'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/6.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/6.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '6'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/7.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/7.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '7'
     },
     {
-        frontImg:'hoangnam-soon.github.io/Card/img/8.jpg',
-        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+        frontImg:'https://hoangnam-soon.github.io/Card/img/8.jpg',
+        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
        data : '8'
     },
 ]
