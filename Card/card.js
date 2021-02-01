@@ -1,4 +1,46 @@
-var cards = ['1', '2', '3', '4', '5', '6', '7', '8'];
+var current = null
+let cards= [
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/1.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '1'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/2.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '2'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/3.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '3'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/4.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '4'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/5.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '5'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/6.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '6'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/7.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '7'
+    },
+    {
+        frontImg:'hoangnam-soon.github.io/Card/img/8.jpg',
+        backImg:'hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
+       data : '8'
+    },
+]
 function shuffle(array) {
     var currentIndex = array.length, temproaryValue, randomIndex;
     while (0 !== currentIndex) {
@@ -19,12 +61,17 @@ $(function () {
     // Đảo vị trí các quân bài
     cards = shuffle(cards)
     // Chèn nội dung vào các quân bài trong element có nhóm class là content
-    for (var i = 0, i < cards.length, i++) {
-        $('.card').append(` <div class="front">
-        <img src="./New folder/1.jpg" alt="">
-           </div>
-        <div class="back">
-        <img src="./New folder/Lol_worlds_logo.png" alt="">
+    debugger
+    for(i=0; i<=cards.length-1; i++){
+        $(".content").append(` <div class="grid">
+        <div class="card" data="cards[i]">
+            <div class="front">
+                <img src="${cards[i].backImg}" alt="">
+            </div>
+            <div class="back">
+                <img src="${cards[i].frontImg}" alt="">
+            </div>
+        </div>
     </div>`)
     }
 })
