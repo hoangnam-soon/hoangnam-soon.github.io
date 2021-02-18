@@ -1,44 +1,44 @@
 var current = null
-let cards= [
+let cards = [
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/1.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '1'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/1.png',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '1'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/2.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '2'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/2.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '2'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/3.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '3'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/3.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '3'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/4.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '4'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/4.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '4'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/5.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '5'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/5.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '5'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/6.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '6'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/6.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '6'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/7.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '7'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/7.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '7'
     },
     {
-        frontImg:'https://hoangnam-soon.github.io/Card/img/8.jpg',
-        backImg:'https://hoangnam-soon.github.io/Card/img/Lol_worlds_logo.png',
-       data : '8'
+        frontImg: 'https://hoangnam-soon.github.io/Card/img/8.jpg',
+        backImg: 'https://hoangnam-soon.github.io/Card/img/Logo-Worlds.png',
+        data: '8'
     },
 ]
 function shuffle(array) {
@@ -61,8 +61,8 @@ $(function () {
     // Đảo vị trí các quân bài
     cards = shuffle(cards)
     // Chèn nội dung vào các quân bài trong element có nhóm class là content
-    debugger
-    for(i=0; i<=cards.length-1; i++){
+
+    for (i = 0; i <= cards.length - 1; i++) {
         $(".content").append(` <div class="grid">
         <div class="card" data="cards[i]">
             <div class="front">
@@ -74,5 +74,22 @@ $(function () {
         </div>
     </div>`)
     }
+    // $(".card").click(function(item){
+    //     $(item).addClass('flip')
+    //   });
+    // $(".card").each(function (item) {
+    //     $(item).click(function (it) {
+    //         $(it).addClass('flip')
+    //     })
+
+    // })
+
+    $( ".card" ).each(function() {
+        
+        $(this).on('click', function(item) {
+            $(this).addClass('flip')
+           });
+      });
 })
+
 
