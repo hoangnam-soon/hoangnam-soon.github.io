@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div>00:00</div>
+    <button onclick="onStart">Start</button>
+    <button onclick="onStop">Stop</button>
+    <button onclick="onPause">Pause</button>
+    <script>
+        // 1. Cho 1 mảng number, sắp xếp mảng theo thứ tự giảm dần ( gồm cả số âm và số dương )
+        let arr = [-3, { name: 'Nam' }, -2, -6, -7, -8, 1, 6, 4, 9, 3,]
+
+        arr.sort(function (a, b) { return b - a })
+
+        console.log("newarry", arr)
+
+
+
+
+        // 2. Cho 1 mảng number, sắp xếp tất cả số chẵn bên trái, lẻ bên phải
+
+        // tạo 2 mảng trống sau đó cho phần tử chẵn và lẻ vào mỗi mảng rồi ghép 2 mảng lại
+        function check(arr) {
+            let arrChan = []
+            let arrLe = []
+            for (i = 0; i <= arr.length; i++) {
+                if (arr[i] % 2 == 0) {
+                    arrChan.push(arr[i])
+
+                } else
+                    arrLe.push(arr[i])
+            }
+            newArr = arrChan.concat(arrLe)
+            console.log('bai 2', newArr)
+
+        }
+        console.log(check(arr))
+
+
+
+        // 3. Cho 1 mảng bất kỳ, tìm vị trí object đầu tiên trong mảng
+        const found = arr.find(element => typeof element == 'object')
+        console.log(found)
+
+        // function looking(arr) {
+        //     for (i = 0; i <= arr.length; i++) {
+        //         if (typeof arr[i] =='object')  {
+        //            console.log(arr[i]) 
+        //         }
+        //     }
+           
+
+        // }
+        // console.log(looking(arr))
+
+
+
+
+// 4. Tính xem từ thời điểm hiện tại đến hết năm 2021 ( 31/12/2021 ) xem còn bao nhiêu ngày
+
+var now = new Date();
+
+var lastYear = new Date(now.getFullYear(), 12, 31); // khởi tạo ngày cuối năm với ngày hiện tại
+
+var offset = lastYear.getTime() - now.getTime(); // lấy độ lệch của 2 mốc thời gian, đơn vị tính là millisecond
+
+var totalDays = Math.round(offset / 1000 / 60 / 60 / 24);
+
+alert("Còn " + totalDays + " ngày là đến Tết");
+
+var totalHours = Math.round(offset / 1000 / 60 / 60);
+
+alert("Còn " + totalHours + " giờ là đến Tết");
+
+var totalMinutes = Math.round(offset / 1000 / 60);
+
+alert("Còn " + totalMinutes + " phút là đến Tết");
+
+var totalSeconds = Math.round(offset / 1000);
+
+alert("Còn " + totalSeconds + " giây là đến Tết");
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
