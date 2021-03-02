@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./style1.css">
 <link rel="stylesheet" href="/Fontawesome/fontawesome-free-5.15.2-web/css/all.css"></head>
 
-<body>
+<body onresize="onresizeMain()" id='main'>
 
     <div class="header" id="#">
         <div class="logo">
             <img src="./New folder/logo.png" alt="">
 
         </div>
-        <div class="menu">
+        <div class="menu" id='menu-full'>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -34,6 +34,29 @@
 
             </button>
 
+        </div>
+        <div>
+            <button onclick="toggleMenu()" class="button-toggle-menu">...</button>
+            <div class="menu" id='menu-toggle'>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Gallery</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <!-- <div class="button">
+                <button>CANTACT NOW
+                    <div class="div-ao">
+    
+                    </div>
+    
+    
+                </button>
+    
+            </div> -->
         </div>
     </div>
     <div class="menu2">
@@ -71,7 +94,31 @@
     <a href="#"><button class="top"><i class="fas fa-angle-double-up"
                 style="color: white; font-size: 16px;"></i></button></a>
 
+<script>
 
+let isShowMenu = false
+
+function toggleMenu() {
+    // thay doi css cho menu-toggle
+    isShowMenu = !isShowMenu
+    let meneToggle = document.getElementById('menu-toggle')
+    let style = isShowMenu ? 'block' : 'none'
+    meneToggle.style.display = style
+}
+
+// lắng nghe màn hình thay đổi ở đây, để dislay none menu đi
+
+function onResizeMain() {
+    let main = document.getElementById('main')
+    let width = main.offsetWidth
+    console.log('width', width)
+    if(width > 768) {
+        debugger
+document.getElementById('menu-toggle').style.display = 'none'
+    }
+}
+
+</script>
 </body>
 
 </html>
