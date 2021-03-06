@@ -115,10 +115,328 @@ li{
     letter-spacing: normal;
     color: #333333;
 }
+.banner{
+    width: 1440px;
+height: 670px;
+margin: 170px 240px 24px;
 
+background-color: #ffdbd5;
+position: relative;
+}
+.banner-left{
+    position: absolute;
+    width: 644px;
+  height: 590px;
+  top: 40px;
+  left: 120px;
+  right: 676px;
+  bottom: 40px;
+  /* margin: 40px 676px 40px 120px; */
+  /* margin: 40px 676px 40px 0;
+  padding: 60px; */
+  background-color: #ffffff;
+  z-index: 2;
+}
+.title-1-banner{
+    /* width: 524px; */
+    height: 112px;
+    padding: 60px 60px 24px 60px;
+    font-family: NotoSansCJKkr;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+.title-2-banner{
+    /* width: 161px; */
+    height: 24px;
+    padding: 0px 420px 24px 60px;
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--black-60);
+}
 
-@media only screen and (max-width : 375px){
-    .main-menu{
-        width: fit-content;
-    }
+.title-3-banner{
+    /* width: 468px; */
+    height: 48px;
+    padding: 0px 116px 24px 60px;
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+.title-4-banner{
+    display: flex;
+    padding: 0px 268px 60px 60px;
+
+}
+.title-4-banner-1{
+    width: 132px;
+    height: 42px;
+    margin-right: 8px;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92272d;
+    border-radius: 25px;
+    border: 1px ;
+}
+.banner-right{
+    width: 720px;
+    height: 670px;
+    margin: 0 0 0 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-image: url('./logo/banner-img-1.png'); */
+    
+}
+.banner-right img{
+  
+    width: 100%;
+   
+ 
+}
+.title-text1{
+  height: 41px;
+  margin: 0 87px 24px 0;
+   padding-left: 360px; 
+   padding-top: 80px;
+  opacity: 0.8;
+  font-family: NotoSansCJKkr;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+.img-sale{
+    margin-left: 360px;
+    display: flex;
+
+}
+.img-sale-1{
+    width: 282px;
+    height: 350px;
+    position: relative;
+    margin-right: 24px;
+}
+.infor-item{
+    margin: 16px 0 8px;
+    font-family: NotoSansCJKkr;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+.cost-item{
+    margin: 8px 0 0;
+    font-family: NotoSansCJKkr;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+.triangle{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+   
+}
+.icon-heart{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}  
+.icon-glass{
+    width: 14px;
+    height: 24px;
+    border-radius: 1px;
+   
+    position: absolute;
+    bottom: 26px;
+    right: 31px;
+} 
+.title-sale{
+    position: absolute;
+    top: 19px;
+    left: 9px;
+  transform: rotate(-45deg);
+  background-color: #ffffff;
+}
+.solid-img{
+    
+    width: 1200px;
+    height: 4px;
+    margin: 140px 360px 0px 360px;
+    padding: 0 918px 0 0;
+    background-color: #d7d7d7;
+  /* margin-left: 360px; */
+  
+}
+.solid-img-1{
+    width: 282px;
+    height: 4px;
+    background-color: #b2676c;
+}
+.item-special{
+    display: flex;
+    margin-top: 120px;
+}
+.title-sale-countdown{
+    margin: 120px 13px 6px 360px;
+  opacity: 0.8;
+  font-family: NotoSansCJKkr;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.title-sale-countdown-1{
+    margin: 6px 8px 32px 360px;
+    opacity: 0.8;
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+.img-item-countdown{
+    width: 792px;
+  height: 340px;
+  margin: 0 0 24px;
+  position: relative;
+  
+}
+.img-item img{
+    width: 100%;
+}
+.img-phu{
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    top: 400px;
+    right: 66px;
+}
+.img-phu img{
+    width: 100%;
+}
+.price{
+    display: flex;
+}
+.sale-percent{
+    width: 79px;
+    /* height: 20px;
+    margin: 2px 0; */
+    background-color: #b2676c;
+    font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.price-first{
+    margin: 0px 8px 0;
+  font-family: NotoSansCJKkr;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: line-through;
+}
+.price-sale{
+    font-family: NotoSansCJKkr;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #92272d;
+}
+.title-text2{
+    display: flex;
+    position: relative;
+    margin: ;
+}
+.title-text2-1{
+
+    width: 136px;
+  height: 41px;
+  margin: 0 268px 24px 1px;
+  opacity: 0.8;
+  font-family: NotoSansCJKkr;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+
+}
+.title-text2-2{
+    width: 125px;
+  height: 24px;
+  margin: 0 8px 0 0;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+}
+.title-text2-icon{
+    width: 16px;
+  height: 12px;
+  border-radius: 1px;
+  background-color: #333333;
 }
