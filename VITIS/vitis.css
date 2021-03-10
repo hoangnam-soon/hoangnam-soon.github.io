@@ -23,6 +23,7 @@
     padding-top: 11px;
 }
 .search{
+  
     display: flex;
     justify-content: center;
     padding-top: 40px;
@@ -54,7 +55,7 @@
 input{
     width: 100%;
     border: none;
-    height: 40px;
+    height: 35px;
     
 }
 .icon-logo{
@@ -95,7 +96,7 @@ li{
     display:flex;
 }
 .li-menu-icon{
-    margin-left: 12px;
+    margin-left: 3px;
 }
 .li-deafault-icon {
     width: 17px;
@@ -839,4 +840,61 @@ margin: 120px 0px 24px 70px;
   line-height: normal;
   letter-spacing: normal;
   color: #000000 !important; 
+}
+.footer-last{
+  max-width: 1920px;
+  height: 68px;
+  padding: 24px 70px;
+  display: flex;
+  background-color: #92272d;
+
+}
+.footer-last1{
+  margin-right: 550px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.footer-last2{
+  margin: 0 20px 0 0;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.footer-last0{
+  width: 2px;
+  height: 12px;
+  margin: 4px 20px;
+  background-color: #ffffff;
+}
+.footer-last3{
+ 
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.footer-last4{
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #ffffff;
 }
