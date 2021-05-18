@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header>
+        <section class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="top-bar_logo">
+                            <a href="home.html">
+                                <img src="./img/logo4.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <ul class="top-bar_menu">
+                            <li><a href="about.html">GIỚI THIỆU</a></li>
+                            <li><a href="item.html">SẢN PHẨM</a></li>
+                            <li><a href="phukienpet.html">PHỤ KIỆN PET</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="top-bar_icon">
+                            <li class="default-icon search-icon ">
+                                <a href="#">
+                                    <svg class="default-icon" xmlns="http://www.w3.org/2000/svg" height="136pt" version="1.1" viewBox="-1 0 136 136.21852" width="136pt">
+                                        <g id="surface1">
+                                            <path
+                                                d="M 93.148438 80.832031 C 109.5 57.742188 104.03125 25.769531 80.941406 9.421875 C 57.851562 -6.925781 25.878906 -1.460938 9.53125 21.632812 C -6.816406 44.722656 -1.351562 76.691406 21.742188 93.039062 C 38.222656 104.707031 60.011719 105.605469 77.394531 95.339844 L 115.164062 132.882812 C 119.242188 137.175781 126.027344 137.347656 130.320312 133.269531 C 134.613281 129.195312 134.785156 122.410156 130.710938 118.117188 C 130.582031 117.980469 130.457031 117.855469 130.320312 117.726562 Z M 51.308594 84.332031 C 33.0625 84.335938 18.269531 69.554688 18.257812 51.308594 C 18.253906 33.0625 33.035156 18.269531 51.285156 18.261719 C 69.507812 18.253906 84.292969 33.011719 84.328125 51.234375 C 84.359375 69.484375 69.585938 84.300781 51.332031 84.332031 C 51.324219 84.332031 51.320312 84.332031 51.308594 84.332031 Z M 51.308594 84.332031 "
+                                                style=" stroke:none;fill-rule:nonzero;fill:white;fill-opacity:1;" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="default-icon cart-icon">
+                                <a href="cart.html">
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                    <!DOCTYPE svg
+                                        PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                    <svg class="default-icon cart-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="475.084px" height="475.085px" viewBox="0 0 475.084 475.085" style="enable-background:new 0 0 475.084 475.085;"
+                                        xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path class="cart-icon" d="M365.446,401.998c0,10.092,3.579,18.702,10.711,25.834c7.132,7.139,15.749,10.711,25.845,10.711
+			c10.081,0,18.698-3.572,25.83-10.711c7.139-7.132,10.711-15.742,10.711-25.834s-3.568-18.702-10.711-25.841
+			c-7.132-7.132-15.749-10.704-25.83-10.704c-10.096,0-18.713,3.572-25.845,10.704C369.025,383.296,365.446,391.906,365.446,401.998
+			z" />
+                                                <path class="cart-icon" d="M469.658,78.51c-3.618-3.617-7.898-5.426-12.848-5.426H113.918c-0.193-1.331-0.621-3.756-1.287-7.277
+			c-0.666-3.523-1.188-6.329-1.569-8.425c-0.383-2.087-1.093-4.611-2.142-7.561c-1.047-2.952-2.284-5.286-3.711-6.995
+			c-1.425-1.718-3.328-3.189-5.708-4.43c-2.378-1.233-5.092-1.853-8.136-1.853H18.276c-4.952,0-9.234,1.812-12.85,5.424
+			C1.809,45.583,0,49.868,0,54.816s1.809,9.231,5.426,12.847c3.619,3.617,7.902,5.424,12.85,5.424h58.237l50.532,234.976
+			c-0.378,0.76-2.329,4.373-5.852,10.848c-3.521,6.475-6.328,12.135-8.42,16.988c-2.093,4.859-3.14,8.616-3.14,11.279
+			c0,4.948,1.809,9.232,5.424,12.854c3.621,3.606,7.902,5.421,12.851,5.421h18.272h255.815h18.261c4.948,0,9.232-1.814,12.847-5.421
+			c3.62-3.621,5.427-7.905,5.427-12.854c0-4.949-1.807-9.233-5.427-12.847c-3.614-3.614-7.898-5.428-12.847-5.428h-262.66
+			c4.57-9.138,6.854-15.222,6.854-18.268c0-1.909-0.238-4.004-0.715-6.283s-1.047-4.805-1.713-7.569
+			c-0.667-2.752-1.093-4.799-1.283-6.133l298.077-34.831c4.753-0.575,8.658-2.614,11.703-6.14c3.046-3.518,4.565-7.562,4.565-12.133
+			V91.363C475.082,86.415,473.278,82.132,469.658,78.51z" />
+                                                <path class="cart-icon" d="M109.632,401.998c0,10.092,3.567,18.702,10.706,25.834c7.141,7.139,15.75,10.711,25.841,10.711
+			c10.085,0,18.699-3.572,25.835-10.711c7.139-7.132,10.71-15.742,10.71-25.834s-3.568-18.702-10.71-25.841
+			c-7.137-7.132-15.75-10.704-25.835-10.704c-10.09,0-18.704,3.572-25.841,10.704C113.203,383.296,109.632,391.906,109.632,401.998z
+			" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="default-icon face-icon">
+                                <a href="facebook.html">
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                    <svg class="default-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <path style="fill:#1976D2;" d="M448,0H64C28.704,0,0,28.704,0,64v384c0,35.296,28.704,64,64,64h384c35.296,0,64-28.704,64-64V64
+	C512,28.704,483.296,0,448,0z" />
+                                        <path style="fill:#FAFAFA;" d="M432,256h-80v-64c0-17.664,14.336-16,32-16h32V96h-64l0,0c-53.024,0-96,42.976-96,96v64h-64v80h64
+	v176h96V336h48L432,256z" />
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="default-icon instar-icon">
+                                <a href="instar.html">
+                                    <svg class="default-icon" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <linearGradient id="SVGID_1_"
+                                            gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)"
+                                            gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705"
+                                            y2="-84.047">
+                                            <stop offset="0" stop-color="#fd5" />
+                                            <stop offset=".5" stop-color="#ff543e" />
+                                            <stop offset="1" stop-color="#c837ab" />
+                                        </linearGradient>
+                                        <path
+                                            d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z"
+                                            fill="url(#SVGID_1_)" />
+                                        <path
+                                            d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+                                            fill="#fff" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="default-icon tiktok-icon">
+                                <a href="tiktok.html">
+                                    <svg class="default-icon" id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                            class="cart-icon"
+                                                d="m195.19 512c-37.27 0-72.42-11.89-101.65-34.39-5.46-4.2-10.71-8.79-15.61-13.63-34.12-33.72-51.29-78.63-48.34-126.46 2.23-36.15 16.79-71 41.02-98.13 32.09-35.93 76.33-55.72 124.59-55.72 8.29 0 16.66.62 24.9 1.84l12.8 1.9v113.59l-19.71-6.51c-5.74-1.9-11.71-2.86-17.75-2.86-15.26 0-29.55 5.98-40.24 16.83-10.64 10.8-16.37 25.08-16.15 40.23.29 19.53 10.58 37.23 27.52 47.37 7.8 4.66 16.68 7.39 25.7 7.89 7.12.39 14.15-.54 20.91-2.77 23.11-7.63 38.64-29.07 38.64-53.34l.1-117.8v-230.04h108.56l.13 14.86c.06 6.73.75 13.46 2.05 19.98 5.1 25.64 19.48 48.49 40.49 64.33 18.65 14.07 40.91 21.5 64.35 21.5.55 0 .55 0 5.56.35l13.95.98v92 15l-5-.01h-9.97c-.08 0-.16 0-.25 0h-4.79c-.02 0-.05 0-.08 0-28.91 0-56-5.51-82.85-16.84-8-3.38-15.79-7.24-23.31-11.55l.34 147.81c-.18 43.72-17.46 84.73-48.65 115.56-25.31 25.01-57.25 40.99-92.37 46.19-8.19 1.22-16.56 1.84-24.89 1.84zm0-298.33c-39.59 0-75.89 16.23-102.21 45.7-19.76 22.13-31.64 50.54-33.46 79.99-2.4 39.05 11.62 75.73 39.49 103.27 4.03 3.98 8.34 7.75 12.82 11.2 23.94 18.43 52.77 28.17 83.36 28.17 6.86 0 13.75-.51 20.5-1.51 28.77-4.26 54.94-17.35 75.68-37.85 25.48-25.18 39.59-58.65 39.74-94.25l-.47-206.39 24.23 18.69c12.51 9.65 26.27 17.67 40.88 23.84 19.97 8.43 40.1 13.11 61.25 14.22v-48.45c-26.14-1.96-50.83-11.25-71.92-27.16-26.9-20.28-45.31-49.56-51.85-82.43-.7-3.53-1.27-7.1-1.69-10.7h-49.63v200.04l-.1 117.8c0 37.23-23.8 70.11-59.23 81.81-10.33 3.41-21.08 4.83-31.96 4.24-13.86-.76-27.5-4.95-39.46-12.1-25.93-15.51-41.68-42.68-42.12-72.67-.34-23.24 8.45-45.16 24.77-61.73 16.37-16.62 38.25-25.77 61.61-25.77 2.5 0 4.98.11 7.46.32v-48.07c-2.56-.14-5.13-.21-7.69-.21z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-img">
+                <img src="./img/Baner/banner2.jpg" alt="">
+
+            </div>
+            <h2 class="baner-sologan">Hi SEN!!! Hãy cùng trải nghiệm cùng Boss tại Black Cat coffee.</h2>
+        </section>
+        <section class="menu-homepage">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-home col-12 ">
+                        <div class="menu-home-title">
+                            <h2>MENU</h2>
+                            <div class="under-title1"></div>
+                        </div>
+                        <div class="menu-home-full-item-title"><a href="allitem.html">TẤT CẢ SẢN PHẨM</a></div>
+                    </div>
+                    <div class="home-list-item col-12">
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Cà phê/americano.jpg" alt="">
+                            </div>
+                            <div class="item-infor">
+                                AMERICANO
+                            </div>
+                            <div class="item-cost">
+                                45,000 Đ
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Cà phê/capuchino.jpg" alt="">
+                            </div>
+                            <div class="item-infor">
+                                CAPUCHINO
+                            </div>
+                            <div class="item-cost">
+                                35,000 Đ
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Cà phê/cafe-latte-ngon.jpg" alt="">
+                            </div>
+                            <div class="item-infor">
+                                CAFE LATTE
+                            </div>
+                            <div class="item-cost">
+                                45,000 Đ
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Sinh tố/sinh-to-bo.png" alt="">
+                            </div>
+                            <div class="item-infor">
+                                SMOOTHIE BƠ
+                            </div>
+                            <div class="item-cost">
+                                45,000 Đ
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Sinh tố/mãng cầu.jpg" alt="">
+                            </div>
+                            <div class="item-infor">
+                                SMOOTHIE MÃNG CẦU
+                            </div>
+                            <div class="item-cost">
+                                45,000 Đ
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="./img/Food and Drink/Sinh tố/cam sữa chua.jpg" alt="">
+                            </div>
+                            <div class="item-infor">
+                                SMOOTHIE CAM
+                            </div>
+                            <div class="item-cost">
+                                40,000 Đ
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home-img-betwen">
+            <div class="home-img-betwen">
+                <img src="./img/KHÔNG GIAN QUÁN/1.jpg" alt="">
+            </div>
+        </section>
+        <section class="blog-home">
+            <div class="container">
+                <div class="row">
+                    <div class="blog-home-title col-12">
+                        <div class="menu-home col-12 ">
+                            <div class="menu-home-title">
+                                <h2>BLOG</h2>
+                                <div class="under-title1"></div>
+                            </div>
+                            <div class="menu-home-full-item-title"><a href="blog.html">XEM THÊM</a></div>
+                        </div>
+                    </div>
+                    <div class="blog-home-coment col-12">
+                        <div class="blog-home-coment-title">
+                            <div class="blog-home-coment-title-1">NHỮNG ĐIỀU THÚ VỊ KHI TRẢI NGHIỆM <br> TẠI BLACK CAT COFFEE</div>
+                            <div class="blog-home-coment-title-2">Những mệt mỏi phiền muộn được xua tan khi bạn bước vào Black Cat Coffee. <br> Được ngắm nhìn các bé mèo, vuốt ve chúng, cho chúng ăn <br> không có gì vui sướng bằng. Tinh thần bạn được cải thiện hơn. <br> Liệu ai không bị hút
+                                hồn bởi các nhân viên này chứ?</div>
+                        </div>
+                        <div class="blog-home-coment-img">
+                            <img src="./img/KHÔNG GIAN QUÁN/batest-min-1024x597.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="about-home">
+            <div class="container">
+                <div class="row">
+                    <div class="about-home-title col-12">
+                        <div class="menu-home-title">
+                            <h2>KHÔNG GIAN QUÁN</h2>
+                            <div class="under-title1"></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="about-home-img">
+                            <div class="about-home-img-1">
+                                <img src="./img/KHÔNG GIAN QUÁN/about-home.jpg" alt="">
+                            </div>
+                            <div class="about-home-img-2">
+                                <img src="./img/KHÔNG GIAN QUÁN/about-home-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="footer-home">
+            <div class="container">
+                <div class="footer row">
+                    <div class="footer-1 col-3">
+                        <div class="footer-logo"><img src="./img/logo4.png" alt=""></div>
+                    </div>
+                    <div class="footer-2 col-3">
+                        <h2 class="footer-title footer-title-about">ABOUT</h2>
+                        <ul class="footer-menu">
+                            <li><a href="">Cửa hàng</a></li>
+                            <li><a href="">Sản phẩm</a></li>
+                            <li><a href="">Phụ kiện pet</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-3 col-3">
+                        <h2 class="footer-title">ALWAYS-ON SUPPORT</h2>
+                        <div class="footer-title-smaller">0967855675 (8:00 - 22:00)</div>
+                        <h2 class="footer-title">ADDRESS</h2>
+                        <div class="footer-title-smaller">82 Ngõ 168 Đường Kim Giang,<br> Đại Kim, Thanh Xuân, <br> Hà Nội, Việt Nam</div>
+                        <h2 class="footer-title">EMAIL</h2>
+                        <div class="footer-title-smaller">hoangnam1739@gmail.com</div>
+                    </div>
+                    <div class="footer-4 col-3">
+                        <img src="./img/Capture.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
