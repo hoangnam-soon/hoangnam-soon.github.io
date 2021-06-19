@@ -1,0 +1,136 @@
+.cart_menu-top {
+    margin: 100px 0px 40px 0px;
+}
+
+.cart_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.cart_menu li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    color: #D5491C;
+}
+
+.cart-infor {
+    margin-right: 10px;
+    margin-left: -10px;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.cart_menu-icon {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D5491C;
+    opacity: 0.3;
+    margin: 0px 10px;
+}
+
+.cart-left {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    border: 2px outset;
+    background-color: #f2f2f2;
+}
+
+.cancel-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    margin: 25px 0px;
+}
+
+.cart-item-image {
+    width: 120px;
+}
+
+.cart-item-image img {
+    width: 100%;
+}
+
+.cart-item-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+
+.cart-item-cost {
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D4491C;
+}
+
+.cart-item-howmany {
+    margin-top: 15px;
+    display: flex;
+}
+
+.howmany-title,
+.howmany {
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.cartpage-icon {
+    display: contents;
+}
+
+.pay-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+
+.pay-item-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.pay-item-cost {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #D4491C;
+}
+
+.cart-right {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+}
+
+.pay-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #D4491C;
+    height: 70px;
+}
+
+.pay-button a {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}

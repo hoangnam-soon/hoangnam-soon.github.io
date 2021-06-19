@@ -1,0 +1,49 @@
+.item-banner {
+    height: 480px;
+}
+
+.item-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.sliebar-menu {
+    position: sticky;
+    top: 70px;
+    height: 500px;
+    margin: 40px 0px;
+    background-color: white;
+}
+
+.sliebar-menu_all {
+    padding-top: 2px;
+}
+
+.sliebar-menu_all li {
+    margin-top: 20px
+}
+
+.sliebar-menu_all li a {
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Calistoga', cursive; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    color: black;
+}
+
+.menu-full-item {
+    position: relative;
+}
+
+.menu-full-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1.5px;
+    height: 100%;
+    top: 40px;
+    background: #EA8025;
+}

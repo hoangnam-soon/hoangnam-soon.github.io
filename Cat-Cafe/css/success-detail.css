@@ -1,0 +1,28 @@
+.success-infor-title-top {
+    margin: 120px 0px 10px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #D5491C;
+    opacity: 0.9;
+}
+
+.success-infor {
+    display: flex;
+    border: 1px solid deepskyblue;
+    /* border-radius: 10px; */
+    background-color: #ffffff;
+}
+
+.success-infor-customer {
+    margin: 20px 0px 20px 5px;
+}
+
+.success-infor-title {
+    margin: 10px 0px;
+}
+
+.success-image img {
+    width: 100%;
+}

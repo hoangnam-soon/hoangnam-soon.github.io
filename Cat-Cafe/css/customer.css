@@ -1,0 +1,138 @@
+.customer-infor {
+    margin-right: 10px;
+    margin-left: -10px;
+    display: flex;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.customer-infor a {
+    color: black;
+}
+
+.text-infor {
+    width: 80%;
+}
+
+.customer-title-top {
+    margin: 20px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #D5491C;
+    opacity: 0.9;
+}
+
+.customer-title {
+    margin: 20px 0px;
+}
+
+.pay-input {
+    margin: 10px 0px;
+    color: black;
+}
+
+.customer-topay {
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.customer-topay-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    border: 2px outset;
+    background-color: #f2f2f2;
+}
+
+.customer-cancel-icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.customer-item-image {
+    width: 60px;
+}
+
+.customer-item-image img {
+    width: 100%;
+}
+
+.customer-item-name {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.customer-item-cost {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #D5491C;
+}
+
+.customer-item-howmany {
+    display: flex;
+    margin-top: 10px;
+}
+
+.customerpage-icon {
+    width: 15px;
+    height: 15px;
+    display: block;
+}
+
+.customer-howmany {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.customer-topay-cost {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+    color: #D4491C;
+}
+
+.customer-topay-cacul {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 5px;
+}
+
+.customer-topay-button {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5491C;
+}
+
+.customer-topay-button a {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.customer-topay-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 17px;
+}

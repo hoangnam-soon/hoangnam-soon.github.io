@@ -1,5 +1,39 @@
 {
-    "posts": [
-        { "id": 1 }
+    "posts": [{
+            "id": 1,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        },
+        {
+            "id": 2,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        },
+        {
+            "id": 3,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        },
+        {
+            "id": 4,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        },
+        {
+            "id": 5,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        },
+        {
+            "id": 6,
+            "img": "https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/Food-Drink/Cafe/americano.jpg",
+            "infor": "americano",
+            "cost": "45,000 Đ"
+        }
     ]
 }

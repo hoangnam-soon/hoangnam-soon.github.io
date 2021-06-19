@@ -1,41 +1,102 @@
-.top-bar {
-    background-color: black;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    background: #000000;
+}
+
+.header-logo {
+    width: 120px;
     height: 60px;
 }
 
-.top-bar_logo img {
-    height: 60px;
+.header-logo img {
+    width: 100%;
+    height: 100%;
+    margin-left: 60px;
 }
 
-.top-bar_menu {
+.header-menu {
     display: flex;
+    justify-content: center;
 }
 
-.top-bar_menu>li {
-    margin-top: 15px;
+.header-menu li {
+    position: relative;
+    display: inline-block;
+    padding: 19px 15px 19px;
 }
 
-.top-bar_menu>li>a {
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
+.header-menu li a {
+    display: block;
+    color: #ffff;
+    font-family: 'Alfa Slab One', cursive;
     font-size: 18px;
     line-height: 22px;
-    margin: 25px;
 }
 
-.cart-icon {
-    fill: white;
+.header-menu li:hover:before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
 }
 
-.top-bar_icon {
+.header-menu li:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    border-bottom: 4px solid #EA8025;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+}
+
+.menu-child {
+    position: absolute;
+    width: 240px;
+    background-color: white;
+    left: 0;
+    top: 100%;
+    padding: initial;
+    display: none;
+}
+
+.menu-child li {
+    width: inherit;
+}
+
+.menu-child li a {
+    color: black;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.has-child:hover>.menu-child {
+    display: block;
+}
+
+.icon-menu {
     display: flex;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .default-icon {
     width: 18px;
     height: 18px;
     margin-right: 15px;
+}
+
+.cart-icon {
+    fill: white;
 }

@@ -3,10 +3,9 @@
 }
 
 .footer {
-    height: 500px;
-    margin-top: 60px;
     display: flex;
-    padding-left: 62px;
+    height: 460px;
+    margin-top: 60px;
     padding-top: 60px;
 }
 
@@ -20,13 +19,13 @@
 }
 
 .footer-title {
+    margin-bottom: 10px;
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    margin-bottom: 10px;
 }
 
 .footer-title-about {
@@ -34,13 +33,13 @@
 }
 
 .footer-title-smaller {
+    margin-bottom: 20px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: white;
-    margin-bottom: 20px;
 }
 
 .footer-4 {
@@ -55,4 +54,27 @@
 
 .footer-menu li a {
     color: white;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.footer-content {
+    position: absolute;
+    display: contents;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-5 {
+    position: relative;
+    text-align: center;
 }

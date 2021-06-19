@@ -1,0 +1,12 @@
+.store-banner{
+    display: flex;
+
+    height: 540px;
+}
+.store-banner-img{
+    height: 540px;
+}
+.store-banner-img img{
+    width: 100%;
+    height: 100%;
+}
