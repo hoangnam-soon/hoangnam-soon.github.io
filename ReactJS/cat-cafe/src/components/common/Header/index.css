@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    /* position: fixed;
+    top: 0; */
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.header ul li {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.header-right {
+    margin: 20px 10px;
+}
+
+.default-icon {
+    margin: 0px 5px;
+}
+
+.MuiIcon-root {
+    font-size: 18px !important;
+    overflow: inherit !important;
+    width: auto !important;
+}

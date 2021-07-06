@@ -1,0 +1,14 @@
+#outlined-basic {
+    color: white;
+}
+
+.MuiInputBase-root {
+    color: white;
+}
+
+.seachbox {
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    right: 210px;
+}
