@@ -7,8 +7,18 @@ import { Link } from 'react-router-dom';
 
 
 const useStyles =makeStyles ({
+    root:{
+        padding:30,
+        "@media(max-width:768px)":{
+            padding: '0px',
+            
+          },
+
+    },
     spacing : {
         width : '100%',
+        padding : 0,
+        margin : 0,
     },
    
     images : {
@@ -39,15 +49,17 @@ const useStyles =makeStyles ({
        
           
       },
-      fontSize: '40px',
+      fontSize: '30px',
       textTransform: 'uppercase',
-      fontFamily: 'Bebas Neue',
+      fontFamily: 'Oswald',
       color: '#EA8025',
       width: 'fit-content',
-      // '@media (max-width : 768px)':{
-      //   fontSize:'30px'
+      margin : '30px 0px',
+      '@media (max-width : 576px)':{
+        fontSize:'20px',
+        margin : '30px 10px'
     
-      // },
+      },
       // '@media (max-width : 568px)':{
       //   fontSize:'20px'
       // }
@@ -59,34 +71,66 @@ const useStyles =makeStyles ({
           margin :'auto !important',
           
 
-      }
+      },  wrapblogmore : {
+        margin :'auto !important',
+        backgroundColor : '#f2f2f2'
+        
+
+    },
+    h3title : {
+        margin: 10,
+        color : 'black',
+        textTransform : 'none',
+        transition: 'all 0.4s',
+        display : 'grid',
+        '@media (max-width : 576px)': {
+               fontSize :14
+            },
+            
+
+        '&:hover':{
+            color : '#EA8025'
+        }
+    },
+    backgroundBlog : {
+        backgroundColor : 'white',
+        
+    },
+    h3 : {
+        height :80,
+        // '@media (max-width : 576px)': {
+        //    Height : 130
+        // }
+        
+    }
+
 });
 
 
 const listBlog = [
     {
         img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-de-meo-bot-bu%E1%BB%93n.jpg?raw=true',
-        title : 'Cách để "Hoàng thượng" bớt cô đơn',
+        title : 'Cách để "Hoàng thượng" quên đi sự cô đơn',
     },
     {
-        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/cover.5e5292fb9efd6.jpg?raw=true',
-        title : 'Giúp Boss có răng chắc khỏe',
-    },
-    {
-        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-img-4.jpg?raw=true',
-        title : 'Bạn có biết mèo cũng biết đọc sách',
-    },
-    {
-        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-massa.jpg?raw=true',
-        title : 'Học cách mát xa cho Boss',
-    },
-    {
-        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-img-1.jpg?raw=true',
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/anh-2.jpg?raw=true',
         title : 'Các phương pháp loại bỏ mùi cơ thể cho mèo',
     },
     {
-        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-img-3.jpg?raw=true',
-        title : 'Để Boss yêu thương bạn nhiều hơn',
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/anh-3.jpg?raw=true',
+        title : 'Bạn có biết mèo là loài động vật như thế nào không',
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/anh-4.jpg?raw=true',
+        title : 'Học cách mát xa cho Boss',
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/anh-5.jpg?raw=true',
+        title : ' Giúp Boss có cơ thể khỏe mạnh',
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/anh-6.jpg?raw=true',
+        title : 'Để Boss yêu bạn nhiều hơn',
     },
 
 
@@ -107,10 +151,10 @@ const Blogscreen = () => {
                 listBlog.length && listBlog.map((item,index)=>{
 
                     return(
-                        <Grid item xs={6}>
-                            <div>
+                        <Grid item xs={12} lg= {4}>
+                            <div className={classes.backgroundBlog}>
                                <div><Link><img className={classes.images} src={item.img} alt="" /></Link></div>
-                                <h3>{item.title}</h3>
+                                <h3 className={classes.h3} ><Link className={classes.h3title}>{item.title}</Link></h3>
                                 
                             </div>
                         </Grid>
@@ -125,10 +169,10 @@ const Blogscreen = () => {
         <div>
              <div><img className={classes.images} src="https://raw.githubusercontent.com/hoangnam-soon/hoangnam-soon.github.io/main/Cat-Cafe/img/BLOG/banner-blog.webp" alt="" /></div>
              <div className={classes.root}>
-                <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>  
+                <Grid container spacing={0}>  
                     <Grid classes={{"root":classes.wrapbloginfor}} item xs={8}>
                     <div>
-                        <h2>NHỮNG THỨ KHÔNG NÊN CHO BOSS ĂN</h2>
+                        <h2>NHỮNG THỨ KHÔNG NÊN CHO "HOÀNG THƯỢNG" CỦA BẠN ĂN</h2>
                         <div><img className={classes.images}  src="https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-nh%E1%BB%AFng-th%E1%BB%A9-kh%C3%B4ng-n%C3%AAn.jpg?raw=true" alt="" /></div>
                         <div>
                             <h3>Khoai tây sống</h3>
@@ -148,9 +192,9 @@ const Blogscreen = () => {
                     </div>
                     </Grid>
                     
-                        <Grid item xs={8}>
-                           <div> bài viết liên quan</div>
-                           <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}> 
+                        <Grid className={classes.wrapblogmore} item xs={8}>
+                           <div className={classes.titleLeft}> bài viết liên quan</div>
+                           <Grid container spacing={0} className={classes.wrapblogmore} > 
                             {
                                 renderListBlog()
                             }

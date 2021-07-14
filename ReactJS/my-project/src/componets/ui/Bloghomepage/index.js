@@ -17,11 +17,11 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
-  spacing : {
-    width : '100%',
-    margin : 'auto',
+  // spacing : {
+  //   width : '100%',
+  //   margin : 'auto',
   
-  },
+  // },
   images : {
    width : '100%'
    
@@ -205,7 +205,7 @@ export default function Bloghomepage() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>
+      <Grid container spacing={0} >
       <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs={12}>
           <div className={classes.titleLeft}>blog</div>
           <div ><Link className={classes.allButton} to='/Blog' >xem thêm</Link></div>
