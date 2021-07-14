@@ -20,7 +20,7 @@ export const petItemhomepage =[
       },
       {
         img :'https://hoangnam-soon.github.io/Cat-Cafe/img/Item/cat-food/thuc-an-cho-meo-my-long-dai-truong-thanh-royal-canin-maine-coon-adult.jpg',
-        title : 'royalcanin cho mèo lông dài',
+        title : 'royalcanin mèo lông dài',
         price:'200,000 đ'
       },
       {

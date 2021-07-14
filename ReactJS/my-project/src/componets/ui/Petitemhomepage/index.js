@@ -115,6 +115,11 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'Oswald',
     fontWeight:'500',
     marginLeft : 10,
+    transition: 'all 0.4s',
+    '&:hover' : {
+         color : '#EA8025',
+        //  transform :
+    },
     // "@media (max-width:768px)":{
     //   margin : '10px '
       
@@ -183,6 +188,8 @@ const useStyles = makeStyles((theme) => ({
 
 inforTitle:{
   padding: '12px 15px',
+  backgroundColor : '#f3c7c7',
+  
   
   
    "@media (max-width:768px)":{

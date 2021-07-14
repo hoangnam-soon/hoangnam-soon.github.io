@@ -46,7 +46,7 @@ const useStyles = makeStyles({
    },
   
    menuLeft : {
-        backgroundColor:'#f3c7c7',
+        backgroundColor:'white',
         height: '341px',
         position : 'sticky',
         top : '60px',
@@ -121,8 +121,9 @@ const Sanpham = () => {
           <div><img className={classes.imageBanner} src="https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner-taycoffee-3.jpg" alt="" /></div>
            <div>
                 <Grid className={classes.wrapBox} container spacing={2} classes={{"spacing-xs-2":classes.spacing}}>
-                    <Grid className={classes.menuLeft} item xs={8} lg = {3}  >
-                     {
+                    <Grid  item xs={8} lg = {3}  > 
+                    <div className={classes.menuLeft}>
+                    {
                         sanpham.map((item,index)=>{
                            
                             return(
@@ -130,6 +131,8 @@ const Sanpham = () => {
                             )
                         })
                      }
+                    </div>
+                     
                     </Grid>
                     <Grid className ={classes.wrapItem} item xs={12} lg = {9}>
                         <Grid container spacing ={2} classes={{"spacing-xs-2":classes.spacing}} >

@@ -11,7 +11,7 @@ const Slidebanner = () => {
     'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner2.jpg',
     'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner1.jpg',
     'https://cdn-onshop.cdn.vccloud.vn/images/zimpet/sale.jpg',
-    'https://theme.hstatic.net/200000104537/1000663411/14/blog_banner_2.png?v=80'
+    'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-banner.jpg?raw=true'
   ];
   
 
@@ -41,6 +41,7 @@ const Slidebanner = () => {
           <div className="image-container">
             <img src={fadeImages[3]} />
           </div>
+          <h2 className='title-banner3'>Nhìn gì! Mua phụ kiện đi Sen.</h2>
         </div>
       </Fade>
     </div>

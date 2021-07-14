@@ -25,6 +25,15 @@
     color: #ffff;
 }
 
+.title-banner3 {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 50px;
+    top: 40px;
+    left: 30px;
+    color: black;
+}
+
 .react-slideshow-container .default-nav {
     border-radius: 0;
     opacity: 0.2;
@@ -49,5 +58,13 @@
 @media screen and (max-width: 750px) {
     .title-banner2 {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .title-banner3 {
+        font-size: 20px;
+        top: 10px;
+        left: 10px;
     }
 }

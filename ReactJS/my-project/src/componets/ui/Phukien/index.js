@@ -30,11 +30,11 @@ const useStyles = makeStyles({
       },
     
        '@media (max-width : 768px)':{
-        padding : '20px 20px',
+        padding : '20px 35px',
     
       },
       '@media (max-width : 568px)':{
-        padding : '10px 25px',
+        padding : '10px 35px',
         margin : 'auto',
       },
       '@media (max-width : 400px)':{
@@ -127,8 +127,9 @@ const Phukien = () => {
           <div><img className={classes.imageBanner} src="https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/Processed-Food-Pet-food-1920x400.jpg" alt="" /></div>
            <div>
                 <Grid className={classes.wrapBox} container spacing={2} classes={{"spacing-xs-2":classes.spacing}}>
-                    <Grid className={classes.menuLeft} item xs={12} lg = {3}  >
-                     {
+                    <Grid  item xs={11} lg = {3}  >
+                    <div className={classes.menuLeft}>
+                    {
                         petitem.map((item,index)=>{
                            
                             return(
@@ -136,6 +137,8 @@ const Phukien = () => {
                             )
                         })
                      }
+                    </div>
+                    
                     </Grid>
                     <Grid className ={classes.wrapItem} item xs={12} lg = {9}>
                         <Grid container spacing ={2} classes={{"spacing-xs-2":classes.spacing}} >
