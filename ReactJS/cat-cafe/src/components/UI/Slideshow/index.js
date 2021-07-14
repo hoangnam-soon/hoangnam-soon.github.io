@@ -1,15 +1,19 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import './index.css'
+import 'react-slideshow-image/dist/styles.css';
+import './index.css';
 
-const fadeImages = [
-  'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner2.jpg',
-  'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner1.jpg',
-  'https://mew.vn/wp-content/uploads/2020/12/banner-trang-chu-2-1024x576.jpg'
-];
+
 
 const Slideshow = () => {
+  
+  const fadeImages = [
+    'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner2.jpg',
+    'https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner1.jpg',
+    'https://mew.vn/wp-content/uploads/2020/12/banner-trang-chu-2-1024x576.jpg'
+  ];
+  
+
   return (
     <div className="slide-container">
       <Fade>

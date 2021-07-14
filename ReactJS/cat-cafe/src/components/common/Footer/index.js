@@ -62,7 +62,7 @@ const Footer = () => {
                 <div >
                    <h2 className={classes.footerTagTitle}>ABOUT</h2>
                    <div className={classes.footerTagLink}>
-                 <div className={classes.footerTagInfor}><Link >Cửa hàng</Link></div>  
+                 <div className={classes.footerTagInfor}><Link to='/Store' >Cửa hàng</Link></div>  
                  <div className={classes.footerTagInfor}><Link >Sản phẩm</Link></div>   
                  <div className={classes.footerTagInfor}><Link >Phụ kiện pet</Link></div>   
                  <div className={classes.footerTagInfor}><Link >Blog</Link></div>  

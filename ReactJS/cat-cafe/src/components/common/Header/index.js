@@ -50,13 +50,14 @@ const Header = () => {
             {
                 showSearchBox && <SearchBox/>
             }
+            
             <div className='header-right'>
             <Icon className="fas fa-search default-icon" style={{color:'white'}}  onClick={() =>setShowSearchBox(!showSearchBox)}/>
             
-            <Link to ='/Cart'><Icon className= "fas fa-shopping-cart default-icon" style={{color:'white'}}   /></Link>
-            <Link to ='https://www.facebook.com/linkin.parks.169/'><Icon className= "fab fa-facebook-square default-icon" style={{color:'white'}}  /></Link>
-            <Link to ='https://www.instagram.com/hoangnam1739/'><Icon className= "fab fa-instagram default-icon" style={{color:'white'}}   /></Link>
-            <Link to ='#'> <Icon className= "fab fa-tiktok default-icon" style={{color:'white'}}   /></Link>
+              <Link to ='/Cart'><Icon className= "fas fa-shopping-cart default-icon" style={{color:'white'}}   /></Link> 
+            <a href='https://www.facebook.com/linkin.parks.169/'><Icon className= "fab fa-facebook-square default-icon" style={{color:'white'}}  /></a>
+            <a href='https://www.instagram.com/hoangnam1739/'><Icon className= "fab fa-instagram default-icon" style={{color:'white'}}   /></a>
+            <a href='https://www.tiktok.com/'> <Icon className= "fab fa-tiktok default-icon" style={{color:'white'}}   /></a> 
             </div>
            
            

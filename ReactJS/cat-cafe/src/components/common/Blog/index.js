@@ -1,7 +1,9 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
-import { Opacity } from '@material-ui/icons';
+// import { Opacity } from '@material-ui/icons';
+
+
 const useStyles = makeStyles({
     titleHomeBlog: {
         display: 'flex',
@@ -22,12 +24,36 @@ const useStyles = makeStyles({
         color: 'white'
     },
     viewMore : {
-        display: 'inline-block'
+        '&:hover':{
+            backgroundPosition: 'left',
+            color : 'black',
+      
+          },
+          display: 'inline-block',
+          padding: '8px 15px',
+          border: '1px solid #666666',
+          color: 'white',
+          borderRadius: '3px',
+          background: 'linear-gradient(to left, #cf4d24 50%, #fff 50%) right',
+          backgroundSize: '200%',
+          transition: 'all 0.7s cubic-bezier(0.5,1.6,0.4,0.7)',
+          marginLeft: '5px !important'
     },
     veiwMoreLink : {
-        backgroundColor: '#cf4d24',
-        padding: '7px 15px',
-        display: 'inline-block'
+        '&:hover':{
+            backgroundPosition: 'left',
+            color : 'white',
+      
+          },
+          display: 'inline-block',
+          padding: '8px 15px',
+          border: '1px solid #666666',
+          color: 'black',
+          borderRadius: '3px',
+          background: 'linear-gradient(to left, #fff 50%, #cf4d24 50%) right',
+          backgroundSize: '200%',
+          transition: 'all 0.7s cubic-bezier(0.5,1.6,0.4,0.7)',
+          marginLeft: '5px !important'
     },
     wrapBlog : {
         width : '350px',
@@ -50,7 +76,7 @@ const useStyles = makeStyles({
         fontSize : '14px',
         textTransform : 'none',
         color : 'white',
-        Opacity :'0.8',
+        opacity :'0.8',
         margin : '0px 0px 10px 5px'
 
     },
@@ -91,13 +117,13 @@ const Blog = () => {
         <>
     <div className={classes.titleHomeBlog}>
         <div className={classes.titleBlog}>blog</div>
-        <div className={classes.viewMore}><Link className={classes.veiwMoreLink}>xem thêm</Link></div>
+        <div><Link to='/Blog' className={classes.veiwMoreLink}>xem thêm</Link></div>
     </div>
       <div>
           <div><img className={classes.imageBlogFirst} src="https://hoangnam-soon.github.io/Cat-Cafe/img/BLOG/blog-img-1.jpg" alt="" /></div>
           <div className={classes.blogTitle}>7 BÍ KÍP KHỬ MÙI HÔI CHO CÚN VÀ MIU 100% TỰ NHIÊN </div>
           <div className={classes.blogComment}>THỨ BẢY 22.03.2021 Làm sao để loại bỏ mùi hôi cơ thể của Cún và Miu nhanh chóng và hiệu quả? Cùng tham khảo các phương pháp 100% tự nhiên, đã được kiểm chứng sau đây ...</div>
-          <a className='buy-button' href="">xem thêm</a>
+          <Link className={classes.viewMore}>xem thêm</Link>
       </div>
       <div className={classes.wrapBlog}>
     {
@@ -106,7 +132,7 @@ const Blog = () => {
             <div><img className={classes.imageBlog} src={item.img} alt="" /></div>
             <div className={classes.blogTitle}>{item.title}</div>
             <div className={classes.blogComment}>{item.comment}</div>
-            <a className='buy-button' href="">xem thêm</a>
+            <Link className={classes.viewMore}>xem thêm</Link>
           </Link>
           
           )

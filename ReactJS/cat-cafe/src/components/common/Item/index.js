@@ -1,13 +1,54 @@
-import React,{useState} from 'react'
-import { Container,Typography,CssBaseline} from '@material-ui/core'
+import React from 'react'
+
 import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types';
-import './index.css'
+// import PropTypes from 'prop-types';
+import './index.css';
+import { makeStyles } from '@material-ui/styles';
+
+
+const useStyles = makeStyles({
+  buyButton : {
+    '&:hover':{
+      backgroundPosition: 'left',
+      color : 'black',
+
+    },
+    display: 'inline-block',
+    padding: '8px 15px',
+    border: '1px solid #666666',
+    color: 'white',
+    borderRadius: '3px',
+    background: 'linear-gradient(to left, #cf4d24 50%, #fff 50%) right',
+    backgroundSize: '200%',
+    transition: 'all 0.7s cubic-bezier(0.5,1.6,0.4,0.7)',
+    marginLeft: '5px !important',
+
+  },
+  allItem : {
+    '&:hover':{
+      backgroundPosition: 'left',
+      // color : 'black',
+
+    },
+    display: 'inline-block',
+    padding: '8px 15px',
+    border: '1px solid #666666',
+    color: 'white',
+    borderRadius: '3px',
+    background: 'linear-gradient(to left, #cf4d24 50%, #000 50%) right',
+    backgroundSize: '200%',
+    transition: 'all 0.7s cubic-bezier(0.5,1.6,0.4,0.7)',
+    marginLeft: '5px !important',
+
+
+  }
+})
 
 
 
 
 const Item = () => {
+  const classes = useStyles();
   const listItem = [
     {
       img :'https://product.hstatic.net/1000075078/product/americano-da_7495646eaad24b8cbe0e68e8e479f01f_master.jpg',
@@ -44,7 +85,7 @@ const Item = () => {
   return(<>
   <div className='title-up-item'>
     <div className='title-home-item'>menu</div>
-    <div className='link-to-all-item'><Link>tất cả sản phẩm</Link></div>
+    <div className='link-to-all-item'><Link to='/Item' className={classes.allItem}>tất cả sản phẩm</Link></div>
   </div>
    <div className='wrap-menu'>
     {
@@ -53,7 +94,7 @@ const Item = () => {
             <div><img src={item.img} alt="" /></div>
             <div className='title-item'>{item.title}</div>
             <div className='price-item'>{item.price}</div>
-            <a className='buy-button' href="">mua hàng</a>
+            <Link className={classes.buyButton}>mua hàng</Link>
           </Link>
           
           )
