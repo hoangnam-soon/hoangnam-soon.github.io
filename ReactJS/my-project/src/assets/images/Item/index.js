@@ -112,7 +112,7 @@ import React from 'react';
     },
 
      {
-      nameItem: 'matcha',
+      nameItem: 'matcha & chocolate',
       data : [
 
         {

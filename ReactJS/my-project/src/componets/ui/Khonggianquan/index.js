@@ -8,15 +8,15 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    backgroundColor : '#f2f2f2'
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
-  spacing : {
-    width: '100%'
-},
+  
+
 
 spacing : {
   width : '100%',
@@ -101,6 +101,10 @@ wrapimages : {
       display : 'gird'
   
     },
+
+},
+paddingimg : {
+  padding : 3,
 }
 
 
@@ -115,22 +119,37 @@ export default function Khonggianquan() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>
-        <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs={12}>
+        <Grid classes={{'root':classes.wrapTitle}} item lg={8}  xs={12}>
             <div className={classes.titleLeft}>không gian quán</div>
-            <div ><Link className={classes.allButton} to='/Store' >xem thêm</Link></div>
+            <div ><Link className={classes.allButton} to='/Store/' >xem thêm</Link></div>
+        </Grid>
+
+
+
+
+        <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs={12}>
+            <Grid container spacing={0}>
+            <Grid className={classes.wrapimages} item xs={12} sm={6} lg={6} >
+        
+                  <div className={classes.paddingimg} ><img className={classes.images} src="https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Place/af4edf584e7cb69100660df934d29e5c.jpg?raw=true" alt="" /></div>
+      
+      
+           </Grid>
+    <Grid className={classes.wrapimages} item xs={12} sm={6} lg={6} >
+    
+        
+        <div className={classes.paddingimg}><img className={classes.images}  src="https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Place/image-between.jpg?raw=true" alt="" /></div>
+     
+        
+      
+    </Grid>
+            </Grid>
         </Grid>
 
         
 
-
-        <Grid className={classes.store} item xs={12} lg={8}>
         
-            <div ><img className={classes.images} src="https://media-cdn.tripadvisor.com/media/photo-s/19/f4/5c/95/photo2jpg.jpg" alt="" /></div>
-            <div ><img className={classes.images}  src="https://hoangnam-soon.github.io/Cat-Cafe/img/Place/about-home-1.jpg" alt="" /></div>
-         
-            
-          
-        </Grid>
+        
         
        
       </Grid>

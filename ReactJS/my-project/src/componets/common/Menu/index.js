@@ -33,6 +33,7 @@ const useStyles = makeStyles({
    menuBar : {
     
         display: "grid",
+        margin :'20px',
         '& a' : {
             color :'black',
             fontSize: "14px", 
@@ -46,7 +47,7 @@ const useStyles = makeStyles({
        
    },
    paper : {
-       width : 'fit-content',
+       width : '40%',
        height :'300px',
        top :60
    },
@@ -72,6 +73,9 @@ const useStyles = makeStyles({
         color:'#EA8025'
      }
 
+ },
+ search : {
+     margin : '10px 30px'
  }
   });
 
@@ -146,7 +150,7 @@ const Menu = ({dataList,isShowBar,closeBar, activeMenu}) => {
             </ul>
             <Drawer classes={{paper:classes.paper}} anchor={'left'} open={isShowBar} onClose={()=> closeBar()}>
 
-            <input type='text' placeholder="Search"></input>
+            <input className={classes.search} type='text' placeholder="Search"></input>
             <ul className={classes.menuBar}>
                 {
                     renderMenu()

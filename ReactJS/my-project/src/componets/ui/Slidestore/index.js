@@ -1,6 +1,6 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
-import { Cats } from "../../../assets/images/Cats";
+import { listImg } from "../../../assets/images/Cats";
 import { makeStyles } from "@material-ui/styles";
 
 
@@ -58,7 +58,9 @@ const useStyles = makeStyles({
 
 });
 
-const MultipleSlidesExample = () => {
+
+const Slidestore = () => {
+
   
   const classes = useStyles();
 
@@ -68,18 +70,6 @@ const MultipleSlidesExample = () => {
     slidesToScroll: 2,
     autoplay: true,
     indicators: false,
-    "@media (max-width:768px)":{
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      autoplay: true,
-      indicators: false,
-    },
-    "@media (max-width:576px)":{
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      indicators: false,
-    },
   };
 
   return (
@@ -88,12 +78,12 @@ const MultipleSlidesExample = () => {
         <Slide {...properties}>
             {
 
-              Cats.length && Cats.map((item,index)=>{
+              listImg.length && listImg.map((item,index)=>{
 
                 return(
                   <div className={classes.spacing}>
                   <div ><img className={classes.images}  src={item.img} alt="" /></div>
-                  <div className={classes.nameCats}>{item.title}</div>
+                  {/* <div className={classes.nameCats}>{item.title}</div> */}
 
                   </div>
                 )
@@ -109,4 +99,4 @@ const MultipleSlidesExample = () => {
   );
 };
 
-export default MultipleSlidesExample;
+export default Slidestore;

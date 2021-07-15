@@ -21,24 +21,24 @@ export const Cats = [
 
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519112016236-YU0LR4L7IM98MMWL9B0X/javacats03Feb20180094.jpg?format=1500w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/javacatsloki.jpg?raw=true',
       title: 'Loki',
      
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519106251480-41VEYAUTRH7T84N0HMH0/javacatscafe18Feb20180088-2.jpg?format=750w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/javacatscwakada.jpg?raw=true',
       title: 'Wakada',
      
 
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519112079060-LH100KCQE4NMOKODMBAN/javacats03Feb20180261.jpg?format=1500w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/javacatsgoese.jpg?raw=true',
       title: 'Goose',
      
 
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/59ef854dc027d88675f777e0/1568228766702-7S2GB76RMOCO8Y0XYB7Y/2.9.18%2BMeowrville%2B%25285%2529.jpg?format=1000w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/jswanda.jpg?raw=true',
       title: 'Wanda',
       
 
@@ -49,18 +49,41 @@ export const Cats = [
     
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1517982151079-NJI0SMV0S2OC4GUCUI32/javacats03Feb20180048.jpg?format=750w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/javacatscap.jpg?raw=true',
       title: 'Cap',
     
   },
   {
-      img : 'https://www.exevalleypetfoods.co.uk/wp-content/uploads/2019/01/CAT2-1000x1000.png',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/jstho.png?raw=true',
       title: 'Thỏ',
      
   },
   {
-      img : 'https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519112468133-E9RK0LFT6BPF7OULE9MY/javacats28Oct20170073.jpg?format=1500w',
+      img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Cats/javacatsbaner.jpg?raw=true',
       title: 'Baner',
    
   },
 ]
+export const listImg = [
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Place/7a9187cc0dfeb91875d07495c2f42e47.jpg?raw=true'
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Banner/home-banner-5.jpg?raw=true'
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Place/af4edf584e7cb69100660df934d29e5c.jpg?raw=true'
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Place/image-between.jpg?raw=true'
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Banner/banner3.jpg?raw=true'
+    },
+    {
+        img : 'https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/Banner/cat-cafe-goyangi-noriteo.jpg?raw=true'
+    },
+    
+
+
+];

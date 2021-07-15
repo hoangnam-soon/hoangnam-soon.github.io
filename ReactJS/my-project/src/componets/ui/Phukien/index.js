@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import Listpetitem from '../Listpetitem';
 import { petitem } from '../../../assets/images/Petitem';
@@ -16,7 +16,8 @@ const useStyles = makeStyles({
 
   spacing : {
     width : '100%',
-     margin  : 0
+     margin  : 0,
+     padding : 0,
   },
    imageBanner : {
        width : '100%'
@@ -60,8 +61,15 @@ const useStyles = makeStyles({
             display: '-webkit-box',
             overflow: 'scroll',
             height : 'fit-content',
-            marginLeft : 13,
-          }
+            marginLeft : 10,
+          },
+         '@media (max-width : 576px)':{
+            
+          marginLeft : '5px',
+          
+
+            
+       },
         
         
         
@@ -126,9 +134,9 @@ const Phukien = () => {
 
           <div><img className={classes.imageBanner} src="https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/Processed-Food-Pet-food-1920x400.jpg" alt="" /></div>
            <div>
-                <Grid className={classes.wrapBox} container spacing={2} classes={{"spacing-xs-2":classes.spacing}}>
-                    <Grid  item xs={11} lg = {3}  >
-                    <div className={classes.menuLeft}>
+                <Grid className={classes.wrapBox} container spacing={0} >
+                    <Grid className={classes.menuLeft} item xs={11} lg = {3}  >
+                   
                     {
                         petitem.map((item,index)=>{
                            
@@ -137,11 +145,11 @@ const Phukien = () => {
                             )
                         })
                      }
-                    </div>
+                   
                     
                     </Grid>
                     <Grid className ={classes.wrapItem} item xs={12} lg = {9}>
-                        <Grid container spacing ={2} classes={{"spacing-xs-2":classes.spacing}} >
+                        <Grid container spacing ={0}  >
                             <Listpetitem/>
                         </Grid>
                         

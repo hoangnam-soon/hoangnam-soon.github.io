@@ -208,15 +208,15 @@ export default function Bloghomepage() {
       <Grid container spacing={0} >
       <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs={12}>
           <div className={classes.titleLeft}>blog</div>
-          <div ><Link className={classes.allButton} to='/Blog' >xem thêm</Link></div>
+          <div ><Link className={classes.allButton} to='/Blog/' >xem thêm</Link></div>
       </Grid>
       <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs ={12}>
           <div>
             <div><Link><img className={classes.images} src="https://github.com/hoangnam-soon/hoangnam-soon.github.io/blob/main/Cat-Cafe/img/BLOG/blog-nh%E1%BB%AFng-th%E1%BB%A9-kh%C3%B4ng-n%C3%AAn.jpg?raw=true" alt="" /></Link></div>
             <div className={classes.inforTitle}>
-              <h3 className={classes.h3title}><Link className={classes.titleItem1}>những thứ không nên cho boss ăn</Link></h3>
+              <h3 className={classes.h3title}><Link to='/Blog/' className={classes.titleItem1}>NHỮNG THỨ KHÔNG NÊN CHO "HOÀNG THƯỢNG" CỦA BẠN ĂN</Link></h3>
               <div className={classes.titleItem2}>Dù mèo cưng của bạn có thể “ăn cả thế giới” hay rất “kén cá chọn canh” thì có những thực phẩm sen vẫn cần giúp mèo tránh xa. Chỉ ăn phải một chút nhỏ cũng có thể ảnh hưởng đến sức khỏe của mèo đấy.</div>
-              <Link className={classes.buyButton}>xem thêm</Link>
+              <Link to='/Blog/' className={classes.buyButton}>xem thêm</Link>
             </div>
           </div>
       </Grid>

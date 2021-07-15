@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
+
 import { sanpham } from '../../../assets/images/Item';
 import Listitem from '../Listitem';
 
@@ -51,11 +51,27 @@ const useStyles = makeStyles({
         position : 'sticky',
         top : '60px',
         '@media (max-width : 1200px)':{
-             display : 'flex',
+             display : '-webkit-box',
              height : 'fit-content',
-             marginLeft : '18px'
+             marginLeft : '10px',
+             overflow: 'scroll',
+
                
           },
+          '@media (max-width : 768px)':{
+            
+            marginLeft : '10px',
+            
+
+              
+         },
+         '@media (max-width : 576px)':{
+            
+          marginLeft : '5px',
+          
+
+            
+       },
         
         
         
@@ -118,11 +134,11 @@ const Sanpham = () => {
 
     return(<div className = {classes.rootItem}>
 
-          <div><img className={classes.imageBanner} src="https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/banner-taycoffee-3.jpg" alt="" /></div>
+          <div><img className={classes.imageBanner} src="https://hoangnam-soon.github.io/Cat-Cafe/img/Banner/item-banner-3.jpeg" alt="" /></div>
            <div>
-                <Grid className={classes.wrapBox} container spacing={2} classes={{"spacing-xs-2":classes.spacing}}>
-                    <Grid  item xs={8} lg = {3}  > 
-                    <div className={classes.menuLeft}>
+                <Grid className={classes.wrapBox} container spacing={0} >
+                    <Grid className={classes.menuLeft}  item xs={8} lg = {3}  > 
+                    
                     {
                         sanpham.map((item,index)=>{
                            
@@ -131,11 +147,11 @@ const Sanpham = () => {
                             )
                         })
                      }
-                    </div>
+                
                      
                     </Grid>
                     <Grid className ={classes.wrapItem} item xs={12} lg = {9}>
-                        <Grid container spacing ={2} classes={{"spacing-xs-2":classes.spacing}} >
+                        <Grid container spacing ={0}  >
                             <Listitem/>
                         </Grid>
                         

@@ -8,7 +8,7 @@ const Blog = () => {
 
     return (
         <>
-            <Header activeMenu={'/Blog'}  />
+            <Header activeMenu={'/Blog/'}  />
             <Blogscreen/>
             <Footer />
         </>

@@ -84,19 +84,19 @@ const Header = ({activeMenu}) => {
     const menu = [
         {
             label: 'cửa hàng ',
-            link: '/Store',
+            link: '/Store/',
         },
         {
             label: 'sản phẩm',
-            link : '/Item'
+            link : '/Item/'
         },
         {
             label: 'phụ kiện pet',
-            link : '/Pet-item'
+            link : '/Pet-item/'
         },
         {
             label: 'blog',
-            link : '/Blog'
+            link : '/Blog/'
         }
     ]
 
@@ -111,7 +111,7 @@ const Header = ({activeMenu}) => {
             
             <div className={classes.headerRight}>
             <Icon className="fas fa-search default-icon" classes ={{root:classes.headerIcon}} style={{color:'white'}}  onClick={() =>setShowSearchBox(!showSearchBox)}/>
-            <Link to ='/Cart'><Icon className= "fas fa-shopping-cart default-icon" classes ={{root:classes.headerIcon}} style={{color:'white'}}   /></Link> 
+            <Link to ='/Cart/'><Icon className= "fas fa-shopping-cart default-icon" classes ={{root:classes.headerIcon}} style={{color:'white'}}   /></Link> 
             <button  onClick={()=>setIsOpenLogin(!isOpenLogin)} className={classes.login}>Đăng nhập</button>
             
              <Login open={isOpenLogin} closeLogin={()=>setIsOpenLogin(!isOpenLogin)}/>

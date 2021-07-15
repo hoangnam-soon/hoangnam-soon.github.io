@@ -193,10 +193,15 @@ inforTitle:{
   
   
    "@media (max-width:768px)":{
-    padding: '7px 10px',
-    marginTop : -15
+    padding: '15px 10px',
+    marginTop : 0
       
-    }
+    },
+    "@media (max-width:576px)":{
+      padding: '7px 10px',
+      marginTop : 0
+        
+      }
 
 },
 h3title:{
@@ -208,7 +213,8 @@ lineHeight:1.4,
 "@media (max-width:576px)":{
  height:50,
 //  height :50,
-  marginTop:10,
+marginTop:5,
+marginBottom: 20,
   display: 'grid'
 },
 
@@ -233,7 +239,7 @@ export default function Petitemhomepage() {
     <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>
       <Grid classes={{'root':classes.wrapTitle}} item lg={8} xs={12}>
           <div className={classes.titleLeft}>pet item</div>
-          <div ><Link className={classes.allButton} to='/Pet-item' >tất cả sản phẩm</Link></div>
+          <div ><Link className={classes.allButton} to='/Pet-item/' >tất cả sản phẩm</Link></div>
       </Grid>
       <Grid className={classes.wrapItem} item lg={8} xs={12}>
         <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>

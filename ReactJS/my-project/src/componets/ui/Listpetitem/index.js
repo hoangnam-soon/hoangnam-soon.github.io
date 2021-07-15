@@ -11,6 +11,10 @@ const useStyles =makeStyles({
     images : {
         maxWidth : 255,
         width : '100%',
+        transition : 'all 0.5s',
+        "&:hover": {
+          transform: "scale(1.03)"
+        },
         "@media (max-width:768px)":{
          maxWidth : 210
           

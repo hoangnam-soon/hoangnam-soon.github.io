@@ -8,7 +8,7 @@ const Petitem = () => {
 
     return (
         <>
-            <Header activeMenu={'/Pet-item'} />
+            <Header activeMenu={'/Pet-item/'} />
             <Phukien />
             <Footer />
         </>

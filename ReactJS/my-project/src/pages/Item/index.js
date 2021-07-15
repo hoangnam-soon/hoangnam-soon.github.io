@@ -8,7 +8,7 @@ const Item = () => {
 
     return (
         <>
-            <Header activeMenu={'/Item'} />
+            <Header activeMenu={'/Item/'} />
             <Sanpham />
             <Footer />
         </>

@@ -22,19 +22,19 @@ return (
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path ="/Store">
+        <Route path ="/Store/">
           <Store/>
         </Route>
-        <Route path ="/Item">
+        <Route path ="/Item/">
           <Item/>
         </Route>
-        <Route path ="/Pet-item">
+        <Route path ="/Pet-item/">
           <Petitem/>
         </Route>
-        <Route path ="/Blog">
+        <Route path ="/Blog/">
           <Blog/>
         </Route>
-        <Route path ="/Cart">
+        <Route path ="/Cart/">
           <Cart/>
         </Route>
 

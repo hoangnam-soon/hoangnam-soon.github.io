@@ -25,13 +25,13 @@ const useStyles = makeStyles((theme) => ({
 logoFooter : {
     maxWidth : '200px',
     
-    marginLeft : '-40px',
+    marginLeft : '40px',
     "@media ( max-width: 576px)": {
        maxWidth : 150
     },
-    // "@media ( max-width: 768px)": {
-    //     marginLeft : '-70px !important' 
-    // }
+    "@media ( max-width: 768px)": {
+        marginLeft : '-40px ' 
+    }
   
 },
 footerTagLink:{
@@ -68,6 +68,9 @@ footerBottomLine : {
 footerIcon : {
     marginRight :10,
     fontSize: 30 ,
+    '&:hover' : {
+      color : '#EA8025',
+  }
 
 },
 LinkFooter : {
@@ -95,10 +98,10 @@ export default function Footer() {
           <div>
             <div className={classes.footerTagTitle}>About</div>
                <div className={classes.footerTagLink}>
-                    <div><Link  className={classes.LinkFooter} to='/Store' >Cửa hàng</Link></div>  
-                    <div><Link className={classes.LinkFooter} to= '/Item'>Sản phẩm</Link></div>   
-                    <div><Link className={classes.LinkFooter} to= '/Pet-item'>Phụ kiện pet</Link></div>   
-                    <div><Link className={classes.LinkFooter} to= '/Blog'>Blog</Link></div>  
+                    <div><Link  className={classes.LinkFooter} to='/Store/' >Cửa hàng</Link></div>  
+                    <div><Link className={classes.LinkFooter} to= '/Item/'>Sản phẩm</Link></div>   
+                    <div><Link className={classes.LinkFooter} to= '/Pet-item/'>Phụ kiện pet</Link></div>   
+                    <div><Link className={classes.LinkFooter} to= '/Blog/'>Blog</Link></div>  
                 </div>
           </div>
         </Grid>

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
-import { Paper } from '@material-ui/core';
+
 import {itemHome} from '../../../assets/images/Item'
 
 const useStyles = makeStyles((theme) => ({
@@ -185,10 +185,15 @@ inforTitle:{
   
   
    "@media (max-width:768px)":{
-    padding: '7px 10px',
-    marginTop : -15
+    padding: '15px 10px',
+    marginTop : 0
       
-    }
+    },
+    "@media (max-width:576px)":{
+      padding: '7px 10px',
+      marginTop : 0
+        
+      }
 
 },
 h3title:{
@@ -200,7 +205,8 @@ lineHeight:1.4,
 "@media (max-width:576px)":{
  height:50,
 //  height :50,
-  marginTop:10,
+  marginTop:5,
+  marginBottom: 20,
   display: 'grid'
 },
 
@@ -225,7 +231,7 @@ export default function Itemhomepage() {
     <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>
       <Grid className={classes.wrapTitle} item lg={8} xs={12}>
           <div className={classes.titleLeft}>menu</div>
-          <div ><Link className={classes.allButton} to='/Item' >tất cả sản phẩm</Link></div>
+          <div ><Link className={classes.allButton} to='/Item/' >tất cả sản phẩm</Link></div>
       </Grid>
       <Grid className={classes.wrapItem} item lg={8} xs={12}>
         <Grid container spacing={3} classes={{"spacing-xs-3":classes.spacing}}>
