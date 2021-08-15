@@ -125,3 +125,19 @@ var Difference_In_Time = date2.getTime() - date1.getTime();
 
 var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
 alert (Difference_In_Days)
+function removeDuplicateCharacters(str) {
+    var arr_char = str.split("");
+    console.log('arr',arr_char)
+      var result_arr = [];
+    
+      for (var i = 0; i < arr_char.length; i++) {
+        console.log('str.index',str.indexOf(arr_char[i]));
+        // if (str.indexOf(arr_char[i]) === str.lastIndexOf(arr_char[i]))
+        
+        // //   result_arr.push(arr_char[i]);
+        }
+    
+      return result_arr.join("");
+    }
+
+    removeDuplicateCharacters("abcaaa")

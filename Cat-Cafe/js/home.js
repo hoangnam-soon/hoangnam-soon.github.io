@@ -22,3 +22,15 @@ $(function () {
         });
     });
 })
+function removeDuplicateCharacters(str) {
+    var arr_char = str.split("");
+    console.log('arr_char',arr_char)
+      var result_arr = [];
+    
+      for (var i = 0; i < arr_char.length; i++) {
+        if (str.indexOf(arr_char[i]) === str.lastIndexOf(arr_char[i]))
+          result_arr.push(arr_char[i]);
+        }
+    
+      return result_arr.join("");
+    }

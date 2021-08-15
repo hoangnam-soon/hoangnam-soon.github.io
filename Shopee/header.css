@@ -1,0 +1,110 @@
+*body {
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+}
+
+body a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ee4d2d;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1300;
+}
+
+header a {
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.navbar_top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.navbar_top_left {
+    display: flex;
+}
+
+.navbar_top_right {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo svg {
+    width: 162px;
+    height: 50px;
+}
+
+.search_box {
+    margin: 0px 20px;
+}
+
+.navbar_top_left_item a:hover {
+    color: rgba(0, 0, 0, .54);
+}
+
+.navbar_top_right_item a:hover {
+    color: rgba(0, 0, 0, .54);
+}
+
+.search_box input {
+    width: 700px;
+    height: 40px;
+    position: relative;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    outline: none;
+}
+
+.search_icon {
+    position: absolute;
+    background-color: #ee4d2d;
+    color: white;
+    justify-content: center;
+    right: 345px;
+    display: flex !important;
+    width: 55px;
+    height: 30px;
+    top: 62px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navbar_select {
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+.navbar_select a {
+    font-size: 12px;
+}
+
+.icon_shopmall {
+    background-image: url("https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1ce96743fb9e3d51ca703e17eb491283.png");
+}
+
+.button_add {
+    position: absolute;
+    right: 190px;
+    top: 300px;
+}
