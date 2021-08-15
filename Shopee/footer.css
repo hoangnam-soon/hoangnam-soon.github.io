@@ -262,3 +262,23 @@
     color: whitesmoke;
     opacity: 0.9;
 }
+
+.chat_box {
+    position: fixed;
+    right: 7px;
+    bottom: 0;
+    /* top: 430px; */
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ee4d2d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon_chat_box {
+    margin-right: 10px;
+}
