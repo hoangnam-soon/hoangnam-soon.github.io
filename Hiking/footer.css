@@ -1,5 +1,5 @@
 .footer {
-    background-image: url("./img/backgroud-5.jpg");
+    background-image: url("./img/banner7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -49,5 +49,5 @@
 }
 
 .footer_col>a :hover {
-    color: black;
+    color: black !important;
 }

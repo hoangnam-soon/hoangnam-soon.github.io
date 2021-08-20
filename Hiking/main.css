@@ -1,3 +1,7 @@
+.row_infor {
+    margin: 0px !important;
+}
+
 .home_banner {
     padding-top: 90px;
 }
@@ -64,7 +68,7 @@
 }
 
 .let_go {
-    background-image: url("./img/backgroud.jpg");
+    background-image: url("./img/banner2.jpg");
     margin-top: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,7 +126,7 @@
 .show_more {
     display: flex;
     justify-content: center;
-    margin: 40px 0px 60px 0px;
+    margin: 60px 0px 140px 0px;
 }
 
 .show_more_button {
@@ -161,7 +165,12 @@
 
 .item_infor {
     /* width: 71%; */
-    padding: 250px 110px 60px 40px;
+    padding: 250px 110px 60px 60px;
+}
+
+.item_infor2 {
+    /* width: 71%; */
+    padding: 250px 60px 60px 110px;
 }
 
 .infor_content1 {
@@ -273,7 +282,7 @@
 }
 
 .lorem_list {
-    background-image: url("./img/backgroud-3.jpg");
+    background-image: url("./img/banner5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
