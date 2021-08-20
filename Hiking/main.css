@@ -1,0 +1,390 @@
+.home_banner {
+    padding-top: 90px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner_image {
+    max-width: 1920px;
+}
+
+.banner_image img {
+    width: 100%;
+}
+
+.banner_content {
+    width: 27%;
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+}
+
+.banner_content_title1 {
+    color: #deb37e;
+    font-family: Myriad Pro;
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 80px;
+    text-shadow: 1px -2px;
+}
+
+.banner_content_title2 {
+    color: #54524f;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.banner_content_title3 {
+    margin: 40px 0px 25px 0px;
+}
+
+.banner_button {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #776c64;
+    font-family: Myriad Pro;
+    border-radius: 25px;
+    padding: 8px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.banner_content_title4 {
+    color: #776c64;
+    font-family: Myriad Pro;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.let_go {
+    background-image: url("./img/backgroud.jpg");
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.letgo_title {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.letgo_content1 {
+    color: #e2a355;
+    font-family: Myriad Pro;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.letgo_content2 {
+    color: #7f7770;
+    font-family: Myriad Pro;
+    letter-spacing: 2px;
+}
+
+.go_list {
+    width: min-content;
+    background-color: #7f7770;
+}
+
+.go_image {
+    width: 410px;
+}
+
+.go_image img {
+    width: 100%;
+}
+
+.go_content1 {
+    margin: 30px 0px 15px 15px;
+    font-family: Myriad Pro;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.go_content2 {
+    margin: 0px 0px 0px 15px;
+    padding-bottom: 20px;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.show_more {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 60px 0px;
+}
+
+.show_more_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px 5px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    background-color: #7f7770;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.infor_item_img {
+    width: 100%;
+}
+
+.infor_item_img img {
+    width: 100%;
+}
+
+.infor_item_content1 {
+    width: 100%;
+    height: 100%;
+    background-color: #7f7770;
+}
+
+.infor_item {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.item_infor {
+    /* width: 71%; */
+    padding: 250px 110px 60px 40px;
+}
+
+.infor_content1 {
+    font-size: 60px;
+    font-family: Myriad Pro;
+    font-weight: bolder;
+    color: white;
+}
+
+.infor_item_content2 {
+    width: 100%;
+    height: 100%;
+    background-color: #deb37e;
+}
+
+.infor_content2 {
+    color: white;
+    font-family: Myriad Pro;
+    width: 71%;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+
+.read_more_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px 60px;
+    background-color: #e2a355;
+    font-size: 25px;
+    font-family: Myriad Pro;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+
+.hiking {
+    margin: 30px 0px;
+}
+
+.hiking_mountain {
+    text-align: center;
+    position: relative;
+}
+
+.hiking_image {
+    max-width: 1920px;
+}
+
+.hiking_image img {
+    width: 100%;
+}
+
+.hiking_mountain_title {
+    font-family: Myriad Pro;
+    font-size: 60px;
+    color: white;
+}
+
+.hiking_title {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.hiking_mountain_title1 {
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family: Myriad Pro;
+}
+
+.the_world {
+    position: relative;
+}
+
+.world_image {
+    max-width: 1920px;
+}
+
+.world_image img {
+    width: 100%;
+}
+
+.world_content {
+    position: absolute;
+    right: 130px;
+    top: 300px;
+}
+
+.world_title1 {
+    font-family: Myriad Pro;
+    font-size: 60px;
+    color: #deb37e;
+    font-style: italic;
+    float: right;
+    font-weight: bolder;
+}
+
+.world_title2 {
+    font-family: Myriad Pro;
+    font-size: 60px;
+    color: #54524f;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+.lorem_list {
+    background-image: url("./img/backgroud-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 60px;
+}
+
+.lorem_content {
+    margin: 60px 0px;
+}
+
+.lorem_title1 {
+    font-family: Myriad Pro;
+    color: #deb37e;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.lorem_title2 {
+    font-family: Myriad Pro;
+    font-size: 20px;
+}
+
+.lorem_list_content {
+    text-align: center;
+    width: 50% !important;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.lorem_cotent1 {
+    font-family: Myriad Pro;
+    color: #3f3f3f;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.lorem_cotent2 {
+    font-family: Myriad Pro;
+    color: #3f3f3f;
+    font-size: 20px;
+    margin: 20px 0px 60px 0pxs;
+}
+
+.lorem_cotent3 {
+    font-family: Myriad Pro;
+    color: #3f3f3f;
+    font-size: 20px;
+}
+
+.sub {
+    position: relative;
+    text-align: center;
+}
+
+.sub_img {
+    max-width: 1920px;
+}
+
+.sub_img img {
+    width: 100%;
+}
+
+.sub_list_title {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 50%;
+}
+
+.sub_title1 {
+    font-size: 50px;
+    font-family: Myriad Pro;
+    color: white;
+    font-weight: bolder;
+}
+
+.sub_title2 {
+    font-size: 20px;
+    font-family: Myriad Pro;
+    color: #54524f;
+    margin: 20px 0px 60px 0px;
+}
+
+.sub_title3 {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.sub_input {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.sub_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 40px 1px;
+    border-radius: 25px;
+    color: white;
+    font-family: Myriad Pro;
+    font-weight: bolder;
+    background-color: #54524f;
+}

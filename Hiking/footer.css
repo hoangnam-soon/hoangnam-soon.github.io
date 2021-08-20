@@ -1,0 +1,53 @@
+.footer {
+    background-image: url("./img/backgroud-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 180px;
+}
+
+.footer_1 {
+    margin-left: 40px;
+}
+
+.footer_col_list_icon {
+    margin-top: 40px;
+}
+
+.footer_icon {
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+    margin-right: 15px;
+    /* margin-top: 30px; */
+}
+
+.footer_col_big_title {
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer_col {
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footer_col>a {
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 1s;
+}
+
+.footer_col>a :hover {
+    color: black;
+}
