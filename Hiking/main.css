@@ -27,7 +27,6 @@
 
 .banner_content_title1 {
     color: #deb37e;
-    font-family: Myriad Pro;
     font-size: 70px;
     font-weight: bolder;
     line-height: 80px;
@@ -36,7 +35,6 @@
 
 .banner_content_title2 {
     color: #54524f;
-    font-family: Myriad Pro;
     font-size: 16px;
     letter-spacing: 5px;
 }
@@ -50,7 +48,6 @@
     outline: none;
     background-color: white;
     color: #776c64;
-    font-family: Myriad Pro;
     border-radius: 25px;
     padding: 8px 40px;
     display: flex;
@@ -62,7 +59,6 @@
 
 .banner_content_title4 {
     color: #776c64;
-    font-family: Myriad Pro;
     letter-spacing: 2px;
     font-style: italic;
 }
@@ -81,7 +77,6 @@
 
 .letgo_content1 {
     color: #e2a355;
-    font-family: Myriad Pro;
     font-size: 50px;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -89,7 +84,6 @@
 
 .letgo_content2 {
     color: #7f7770;
-    font-family: Myriad Pro;
     letter-spacing: 2px;
 }
 
@@ -108,7 +102,6 @@
 
 .go_content1 {
     margin: 30px 0px 15px 15px;
-    font-family: Myriad Pro;
     font-size: 24px;
     color: white;
     font-weight: 700;
@@ -117,7 +110,6 @@
 .go_content2 {
     margin: 0px 0px 0px 15px;
     padding-bottom: 20px;
-    font-family: Myriad Pro;
     font-size: 18px;
     color: white;
     letter-spacing: 2px;
@@ -139,7 +131,6 @@
     outline: none;
     background-color: #7f7770;
     color: white;
-    font-family: Myriad Pro;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -175,7 +166,6 @@
 
 .infor_content1 {
     font-size: 60px;
-    font-family: Myriad Pro;
     font-weight: bolder;
     color: white;
 }
@@ -188,7 +178,6 @@
 
 .infor_content2 {
     color: white;
-    font-family: Myriad Pro;
     width: 71%;
     font-size: 20px;
     margin: 40px 0px;
@@ -202,7 +191,6 @@
     padding: 10px 60px;
     background-color: #e2a355;
     font-size: 25px;
-    font-family: Myriad Pro;
     color: white;
     letter-spacing: 1px;
     font-weight: bolder;
@@ -227,7 +215,6 @@
 }
 
 .hiking_mountain_title {
-    font-family: Myriad Pro;
     font-size: 60px;
     color: white;
 }
@@ -242,7 +229,6 @@
     width: 50%;
     margin: auto;
     color: white;
-    font-family: Myriad Pro;
 }
 
 .the_world {
@@ -264,7 +250,6 @@
 }
 
 .world_title1 {
-    font-family: Myriad Pro;
     font-size: 60px;
     color: #deb37e;
     font-style: italic;
@@ -273,7 +258,6 @@
 }
 
 .world_title2 {
-    font-family: Myriad Pro;
     font-size: 60px;
     color: #54524f;
     font-style: italic;
@@ -294,14 +278,12 @@
 }
 
 .lorem_title1 {
-    font-family: Myriad Pro;
     color: #deb37e;
     font-size: 30px;
     margin-bottom: 10px;
 }
 
 .lorem_title2 {
-    font-family: Myriad Pro;
     font-size: 20px;
 }
 
@@ -313,21 +295,18 @@
 }
 
 .lorem_cotent1 {
-    font-family: Myriad Pro;
     color: #3f3f3f;
     font-size: 80px;
     font-weight: bolder;
 }
 
 .lorem_cotent2 {
-    font-family: Myriad Pro;
     color: #3f3f3f;
     font-size: 20px;
     margin: 20px 0px 60px 0pxs;
 }
 
 .lorem_cotent3 {
-    font-family: Myriad Pro;
     color: #3f3f3f;
     font-size: 20px;
 }
@@ -354,14 +333,12 @@
 
 .sub_title1 {
     font-size: 50px;
-    font-family: Myriad Pro;
     color: white;
     font-weight: bolder;
 }
 
 .sub_title2 {
     font-size: 20px;
-    font-family: Myriad Pro;
     color: #54524f;
     margin: 20px 0px 60px 0px;
 }
@@ -393,7 +370,6 @@
     padding: 5px 40px 1px;
     border-radius: 25px;
     color: white;
-    font-family: Myriad Pro;
     font-weight: bolder;
     background-color: #54524f;
 }

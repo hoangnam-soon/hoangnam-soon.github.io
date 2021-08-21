@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./reponsive.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -16,31 +18,28 @@
 
 <body>
     <header>
-        <section class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="logo"><img src="./img/logo1.png" alt=""></div>
-                    </div>
-                    <div class="col-8">
-                        <div class="header_right">
-                            <div class="nav_top">
-                                <ul class="navbar_top_menu">
-                                    <li class="li_nav_top"><a href="">home</a></li>
-                                    <li class="li_nav_top"><a href="">menu</a></li>
-                                    <li class="li_nav_top"><a href="">our story</a></li>
-                                    <li class="li_nav_top"><a href="">contact us</a></li>
-                                </ul>
-                            </div>
-                            <div class="search_box">
-                                <input class="input_search" type="text">
-                                <span class="search_icon"><i class="far fa-search"></i></span>
-                            </div>
-                        </div>
-                    </div>
+
+        <nav class="navbar">
+
+            <label class="logo" for=""><img src="./img/logo1.png" alt=""></label>
+            <div class="nav_menu">
+                <ul class="list_menu">
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href=""> menu</a></li>
+                    <li><a href="">our story</a></li>
+                    <li><a href="">contact us</a></li>
+                </ul>
+                <div class="search">
+                    <input class="search_input" type="text">
+                    <span class="search_btn"><i class="far fa-search"></i></span>
                 </div>
             </div>
-        </section>
+
+            <label id="nav_btn" class="checkbtn">
+                    <i class="far fa-bars"></i>
+                </label>
+        </nav>
+
     </header>
     <main>
         <section class="home_banner">
@@ -75,21 +74,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4 col-12">
                         <div class="go_list">
                             <div class="go_image"><img src="./img/anh-1.jpg" alt=""></div>
                             <div class="go_content1">Lorem ipsum</div>
                             <div class="go_content2">Lorem ipsum dolor sit amet, consectetur adipisicing...</div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4  col-12">
                         <div class="go_list">
                             <div class="go_image"><img src="./img/anh-2.jpg" alt=""></div>
                             <div class="go_content1">Lorem ipsum</div>
                             <div class="go_content2">Lorem ipsum dolor sit amet, consectetur adipisicing...</div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-4 col-md-4  col-12">
                         <div class="go_list">
                             <div class="go_image"><img src="./img/anh-3.jpg" alt=""></div>
                             <div class="go_content1">Lorem ipsum</div>
@@ -97,10 +96,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="show_more">
-                    <a href="">
-                        <button class="show_more_button">SHOW MORE</button>
-                    </a>
+                <div class="row">
+                    <div class="col">
+                        <div class="show_more">
+                            <a href="">
+                                <button class="show_more_button">SHOW MORE</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -211,7 +214,7 @@
         <section class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-6">
                         <div class="footer_col_list footer_1">
                             <div class="footer_col_big_title">Title Here</div>
                             <div class="footer_col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aliquam at dignissim nunc, id maximus ex. <br> Etiam nec dignissim elit, at dignissim enim. </div>
@@ -223,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-6">
                         <div class="footer_col_list">
                             <div class="footer_col_big_title">about</div>
                             <div class="footer_col"><a href="">history</a></div>
@@ -233,7 +236,7 @@
                             <div class="footer_col"><a href="">pravicy policy</a></div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-6">
                         <div class="footer_col_list">
                             <div class="footer_col_big_title">services</div>
                             <div class="footer_col"><a href="">how to oder</a></div>
@@ -243,7 +246,7 @@
                             <div class="footer_col"><a href="">payment method</a></div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-6">
                         <div class="footer_col_list">
                             <div class="footer_col_big_title">other</div>
                             <div class="footer_col"><a href="">contact us</a></div>
@@ -260,7 +263,9 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

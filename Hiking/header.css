@@ -4,8 +4,8 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
-    width: 80px;
+* {
+    font-family: Myriad Pro;
 }
 
 .logo img {
@@ -21,70 +21,82 @@ a {
     text-decoration: none !important;
 }
 
-.header {
-    padding: 10px 0px;
-    width: 100%;
-    z-index: 1300;
-    position: fixed;
-    top: 0;
+header {
     background-color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1300;
 }
 
-.header_right {
+.navbar {
+    padding: 5px 115px;
+}
+
+.navbar,
+.nav_menu {
     display: flex;
-    /* align-items: center; */
+    align-items: baseline;
     justify-content: space-between;
-    margin-top: 25px;
 }
 
-.nav_top {
-    margin-left: 80px;
+.nav_menu {
+    padding-top: 10px;
 }
 
-.navbar_top_menu {
+
+/* .list_menu li{
     display: flex;
+} */
+
+.logo {
+    width: 60px;
 }
 
-.navbar_top_menu li {
+.logo img {
+    width: 100%;
+}
+
+.list_menu li {
     margin-right: 40px;
-    font-family: Myriad Pro;
-    font-size: 20px;
-    font-style: regular;
-    text-transform: uppercase;
-    cursor: pointer;
+    display: inline-block;
 }
 
-.navbar_top_menu li a {
+.list_menu li a {
     color: #c5c4c3;
-    transition: 1.2s;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    transition: 1s;
 }
 
-.navbar_top_menu li>a:hover {
-    color: black;
+.list_menu li a.active,
+.list_menu li a:hover {
+    color: #000;
 }
 
-.search_box {
+.search {
     position: relative;
-    margin-top: -5px;
 }
 
-input[type="text" i] {
-    padding: 3px 20px;
-}
-
-.input_search {
-    background-color: #c3bfbc;
-    width: 150px;
-    height: 35px;
-    outline: none;
+.search_input {
     border: none;
-    border-radius: 20px;
+    outline: none;
+    background-color: #c3bfbc;
+    border-radius: 25px;
 }
 
-.search_icon {
+.search_btn {
     position: absolute;
+    top: 3px;
+    right: 25px;
+}
+
+.checkbtn {
     cursor: pointer;
-    color: #68635f;
-    right: 20px;
-    top: 5px;
+    font-size: 30px;
+    display: none;
+    position: absolute;
+    right: 15px;
 }

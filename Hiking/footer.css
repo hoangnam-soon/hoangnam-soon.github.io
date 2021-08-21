@@ -24,7 +24,6 @@
 
 .footer_col_big_title {
     color: white;
-    font-family: Myriad Pro;
     font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -32,7 +31,6 @@
 
 .footer_col {
     color: white;
-    font-family: Myriad Pro;
     font-size: 18px;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -41,7 +39,6 @@
 
 .footer_col>a {
     color: white;
-    font-family: Myriad Pro;
     font-size: 18px;
     letter-spacing: 1px;
     text-transform: capitalize;
