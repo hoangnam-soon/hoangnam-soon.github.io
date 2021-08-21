@@ -100,3 +100,7 @@ header {
     position: absolute;
     right: 15px;
 }
+
+input[type="text" i] {
+    padding: 3px 20px;
+}

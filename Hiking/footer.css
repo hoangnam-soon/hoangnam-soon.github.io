@@ -20,6 +20,11 @@
     color: white;
     margin-right: 15px;
     /* margin-top: 30px; */
+    transition: 1s;
+}
+
+.footer_icon:hover {
+    color: black;
 }
 
 .footer_col_big_title {
@@ -46,5 +51,5 @@
 }
 
 .footer_col>a :hover {
-    color: black !important;
+    color: black;
 }

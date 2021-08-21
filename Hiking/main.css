@@ -55,6 +55,12 @@
     align-items: center;
     font-weight: bolder;
     font-size: 20px;
+    transition: 1s;
+}
+
+.banner_button:hover {
+    background-color: #776c64;
+    color: white;
 }
 
 .banner_content_title4 {
@@ -133,6 +139,11 @@
     color: white;
     font-size: 30px;
     font-weight: bolder;
+    transition: 1s;
+}
+
+.show_more_button:hover {
+    background-color: #e2a355;
 }
 
 .infor_item_img {
@@ -195,6 +206,11 @@
     letter-spacing: 1px;
     font-weight: bolder;
     border-radius: 25px;
+    transition: 1s;
+}
+
+.read_more_button:hover {
+    background-color: #54524f;
 }
 
 .hiking {
@@ -372,4 +388,9 @@
     color: white;
     font-weight: bolder;
     background-color: #54524f;
+    transition: 1s;
+}
+
+.sub_button:hover {
+    background-color: #7f7770;
 }
