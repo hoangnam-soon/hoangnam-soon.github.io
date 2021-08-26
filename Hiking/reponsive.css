@@ -21,7 +21,7 @@
         font-size: 20px;
     }
     .hiking_title {
-        left: 8%;
+        left: 10%;
     }
     .world_title1,
     .world_title2 {
@@ -38,7 +38,7 @@
 
 @media (max-width:1200px) {
     .navbar {
-        padding: 5px 80px;
+        padding: 5px 50px;
     }
     .list_menu li a {
         font-size: 18px;
