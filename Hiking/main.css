@@ -21,12 +21,13 @@
 .banner_content {
     width: 27%;
     position: absolute;
-    bottom: 300px;
-    left: 100px;
+    top: 20%;
+    left: 8%;
 }
 
 .banner_content_title1 {
     color: #deb37e;
+    font-family: 'Myriad Pro', sans-serif;
     font-size: 70px;
     font-weight: bolder;
     line-height: 80px;
@@ -35,7 +36,7 @@
 
 .banner_content_title2 {
     color: #54524f;
-    font-size: 16px;
+    font-style: italic;
     letter-spacing: 5px;
 }
 
@@ -83,7 +84,7 @@
 
 .letgo_content1 {
     color: #e2a355;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bolder;
     letter-spacing: 2px;
 }
@@ -116,7 +117,6 @@
 .go_content2 {
     margin: 0px 0px 0px 15px;
     padding-bottom: 20px;
-    font-size: 18px;
     color: white;
     letter-spacing: 2px;
 }
@@ -131,7 +131,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 60px 5px;
+    padding: 10px 60px;
     border: none;
     border-radius: 35px;
     outline: none;
@@ -237,8 +237,8 @@
 
 .hiking_title {
     position: absolute;
-    top: 300px;
-    left: 200px;
+    top: 40%;
+    left: 23%;
 }
 
 .hiking_mountain_title1 {
@@ -261,12 +261,12 @@
 
 .world_content {
     position: absolute;
-    right: 130px;
-    top: 300px;
+    right: 10%;
+    top: 30%;
 }
 
 .world_title1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #deb37e;
     font-style: italic;
     float: right;
@@ -274,7 +274,7 @@
 }
 
 .world_title2 {
-    font-size: 60px;
+    font-size: 70px;
     color: #54524f;
     font-style: italic;
     font-weight: bolder;
@@ -285,8 +285,8 @@
     background-image: url("./img/banner5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
     margin-top: 60px;
+    padding-bottom: 30px;
 }
 
 .lorem_content {
@@ -327,6 +327,36 @@
     font-size: 20px;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .sub {
     position: relative;
     text-align: center;
@@ -342,13 +372,13 @@
 
 .sub_list_title {
     position: absolute;
-    top: 300px;
-    left: 400px;
+    top: 35%;
+    left: 26%;
     width: 50%;
 }
 
 .sub_title1 {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     font-weight: bolder;
 }
@@ -360,7 +390,7 @@
 }
 
 .sub_title3 {
-    width: 70%;
+    width: 75%;
     margin: auto;
     position: relative;
 }
@@ -383,7 +413,7 @@
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 5px 40px 1px;
+    padding: 10px 40px;
     border-radius: 25px;
     color: white;
     font-weight: bolder;

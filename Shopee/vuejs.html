@@ -6,13 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script> -->
 </head>
+<style>
+    .tabs {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .tabs li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 15px;
+        border: 1px solid #000
+    }
+    
+    .login,
+    .register {
+        margin: 10px;
+        padding: 15px;
+        border: 1px solid red;
+    }
+</style>
 
 <body>
 
     <div id="app">
-        {{message}}
+        <ul class="tabs">
+            <li v-on:click="changeTabs('login')">Đăng Nhập</li>
+            <li v-on:click="changeTabs('register')">Đăng Ký</li>
+        </ul>
+        <div class="login" v-if="tabSelector==='login'">
+            <h2>Form đăng nhập</h2>
+            <form action="">
+                <input type="text" placeholder="Nhập usernanme">
+                <input type="text" placeholder="Nhập password">
+            </form>
+        </div>
+        <div class="register" v-else>
+            <h2>Form đăng ký</h2>
+            <form action="">
+                <input type="text" placeholder="Nhập usernanme">
+                <input type="text" placeholder="Nhập password">
+                <input type="text" placeholder="Nhập lại password">
+            </form>
+        </div>
+
     </div>
 
 
@@ -20,8 +59,11 @@
 
 
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./vuejs.js"></script>
 </body>
-<script src="./vuejs.js"></script>
+
+
+
 
 </html>

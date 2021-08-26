@@ -1,60 +1,91 @@
-/* Talet */
+/* Mac */
 
-@media(max-width:1024px) {
+@media (max-width:1400px) {
     .banner_content {
-        bottom: 120px;
-        left: 100px;
+        width: 26%;
     }
     .banner_content_title1 {
-        font-size: 46px;
-        line-height: 46px;
+        font-size: 60px;
+        line-height: 60px;
     }
-    .banner_content_title2 {
-        font-size: 12px;
+    .letgo_content1 {
+        font-size: 60px;
     }
     .go_image {
-        width: 280px;
+        width: 350px;
     }
-    .item_infor {
-        padding: 30px;
+    .show_more_button {
+        font-size: 20px;
     }
-    .item_infor2 {
-        padding: 30px;
-    }
-    .infor_content1 {
-        font-size: 46px;
+    .read_more_button {
+        font-size: 20px;
     }
     .hiking_title {
-        top: 180px;
-        left: 0;
-    }
-    .hiking_mountain_title {
-        font-size: 46px;
-    }
-    .world_content {
-        right: 100px;
-        top: 230px;
+        left: 20%;
     }
     .world_title1,
     .world_title2 {
-        font-size: 46px;
+        font-size: 60px;
     }
-    .sub_list_title {
-        top: 150px;
-        left: 260px;
-    }
-    .sub_title3 {
-        width: 80%;
-    }
-    .sub_button {
-        padding: 2px 40px 0px;
-    }
-    input[type="text" i] {
-        padding: 1px 20px;
+    .item_infor,
+    .item_infor2 {
+        padding: 80px;
     }
 }
 
-@media (max-width:769px) {
+
+/* Anthor */
+
+@media (max-width:1200px) {
+    .banner_content {
+        width: 25%;
+    }
+    .banner_content_title1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .letgo_content1 {
+        font-size: 50px;
+    }
+    .go_list:last-child {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .go_image {
+        width: 430px;
+    }
+    .show_more_button {
+        font-size: 20px;
+    }
+    .item_infor {
+        padding: 50px;
+    }
+    .item_infor2 {
+        padding: 50px;
+    }
+    .infor_content1 {
+        font-size: 50px;
+    }
+    .read_more_button {
+        font-size: 20px;
+    }
+    .hiking_title {
+        left: 12%;
+    }
+    .world_title1,
+    .world_title2,
+    .sub_title1 {
+        font-size: 50px;
+    }
+    .sub_list_title {
+        top: 25%;
+    }
+    .sub_title3 {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
     .logo {
         margin: auto;
     }
@@ -64,9 +95,10 @@
         top: 80px;
         right: -100%;
         background-color: white;
-        width: 50%;
+        width: 100%;
         height: 500%;
         transition: 1s;
+        text-align: center;
     }
     .list_menu {
         display: grid;
@@ -74,15 +106,22 @@
     .list_menu li {
         margin-bottom: 20px;
     }
-    .search {
-        width: 90%;
-        float: right;
+    .list_menu li a {
+        font-size: 24px;
     }
-    .search_btn {
-        right: 60px;
+    .search {
+        width: 100%;
+        float: right;
     }
     .search_input {
         width: 90%;
+    }
+    input[type="text" i] {
+        padding: 5px 20px;
+    }
+    .search_btn {
+        right: 60px;
+        top: 3px;
     }
     .checkbtn {
         display: block;
@@ -90,133 +129,248 @@
     .nav_menu.show {
         right: 0;
     }
+    .checkbtn {
+        display: block;
+    }
     .banner_content {
-        width: 27%;
-        position: absolute;
-        /* bottom: 326px; */
-        left: 33px;
-        top: 90px;
+        width: 25%;
     }
     .banner_content_title1 {
-        font-size: 39px;
-        line-height: 46px;
+        font-size: 40px;
+        line-height: 40px;
     }
     .banner_content_title2 {
-        font-size: 12px;
-        letter-spacing: 0px;
+        font-size: 14px;
+        letter-spacing: 3px;
     }
     .banner_content_title3 {
-        margin: 10px 0px;
+        margin: 15px 0px;
     }
     .banner_button {
-        padding: 4px 15px 1px;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 8px 20px;
     }
     .banner_content_title4 {
-        font-size: 12px;
-        letter-spacing: 0px;
+        font-size: 14px;
     }
-    .go_list {
-        margin-left: 0px;
-        margin-bottom: 20px;
+    .letgo_content1 {
+        font-size: 40px;
+    }
+    .letgo_content2 {
+        font-size: 14px;
+    }
+    .go_list:last-child {
+        margin: auto;
+        margin-top: 30px;
     }
     .go_image {
-        width: 220px;
+        width: 330px;
+    }
+    .go_content1 {
+        font-size: 20px;
+    }
+    .go_content2 {
+        font-size: 14px;
+    }
+    .show_more_button {
+        font-size: 20px;
     }
     .item_infor {
-        padding: 40px 0px 0px 20px;
-    }
-    .infor_content1 {
-        font-size: 39px;
-    }
-    .infor_content2 {
-        font-size: 16px;
-        margin: 10px 0px;
-    }
-    .read_more_button {
-        padding: 8px 16px 4px;
-        font-size: 16px;
+        padding: 50px;
     }
     .item_infor2 {
-        padding: 40px 10px 0px 30px;
+        padding: 50px;
+    }
+    .infor_content1 {
+        font-size: 40px;
+    }
+    .read_more_button {
+        font-size: 20px;
     }
     .hiking_title {
-        top: 100px;
-        left: 0;
-    }
-    .hiking_mountain_title {
-        font-size: 39px;
-    }
-    .hiking_mountain_title1 {
-        font-size: 16px;
-    }
-    .world_content {
-        top: 130px;
-        right: 100px;
+        left: 0%;
+        top: 30%;
     }
     .lorem_list {
-        height: fit-content;
-    }
-    .world_title1 {
-        font-size: 39px;
-    }
-    .world_title2 {
-        font-size: 39px;
-        line-height: 30px;
+        height: max-content;
+        padding-bottom: 20px;
     }
     .lorem_title1 {
         font-size: 20px;
     }
     .lorem_title2 {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .lorem_list_content {
+        margin-top: 40px;
     }
     .lorem_cotent1 {
+        font-size: 60px;
+    }
+    .lorem_cotent2 {
+        font-size: 20px;
+    }
+    .world_title1,
+    .world_title2,
+    .sub_title1 {
         font-size: 40px;
     }
-    .lorem_cotent2,
-    .lorem_cotent3 {
-        font-size: 12px;
-    }
     .sub_list_title {
-        top: 100px;
-        left: 200px;
-    }
-    .sub_title1 {
-        font-size: 39px;
-    }
-    .sub_title2 {
-        margin: 10px 0px;
-    }
-    .sub_title2,
-    .sub_input {
-        font-size: 16px;
+        top: 25%;
     }
     .sub_title3 {
         width: 100%;
     }
     .sub_button {
-        font-size: 16px;
-        padding: 2px 10px 1px
+        padding: 5px 40px;
     }
-    .footer {
-        height: fit-content;
-        padding-left: 100px;
-        padding-bottom: 30px;
+}
+
+@media (max-width:768px) {
+    .logo {
+        margin: auto;
+    }
+    .nav_menu {
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: -100%;
+        background-color: white;
+        width: 100%;
+        height: 500%;
+        transition: 1s;
+        text-align: center;
+    }
+    .list_menu {
+        display: grid;
+    }
+    .list_menu li {
+        margin-bottom: 20px;
+    }
+    .list_menu li a {
+        font-size: 24px;
+    }
+    .search {
+        width: 100%;
+        float: right;
+    }
+    .search_input {
+        width: 90%;
+    }
+    input[type="text" i] {
+        padding: 5px 20px;
+    }
+    .search_btn {
+        right: 60px;
+        top: 3px;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .nav_menu.show {
+        right: 0;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .banner_content {
+        width: 25%;
+    }
+    .banner_content_title1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_content_title2 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .banner_content_title3 {
+        margin: 15px 0px;
+    }
+    .banner_button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .banner_content_title4 {
+        font-size: 14px;
+    }
+    .letgo_content1 {
+        font-size: 30px;
+    }
+    .letgo_content2 {
+        font-size: 14px;
+    }
+    .go_list:last-child {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .go_image {
+        width: 480px;
+    }
+    .go_content1 {
+        font-size: 20px;
+    }
+    .go_content2 {
+        font-size: 14px;
+    }
+    .show_more_button {
+        font-size: 20px;
+    }
+    .item_infor {
+        padding: 50px;
+    }
+    .item_infor2 {
+        padding: 50px;
+    }
+    .infor_content1 {
+        font-size: 30px;
+    }
+    .read_more_button {
+        font-size: 20px;
+    }
+    .hiking_title {
+        left: 0%;
+        top: 30%;
+    }
+    .lorem_list {
+        height: max-content;
+        padding-bottom: 20px;
+    }
+    .lorem_title1 {
+        font-size: 20px;
+    }
+    .lorem_title2 {
+        font-size: 14px;
+    }
+    .lorem_list_content {
+        margin-top: 40px;
+    }
+    .lorem_cotent1 {
+        font-size: 60px;
+    }
+    .lorem_cotent2 {
+        font-size: 20px;
+    }
+    .world_title1,
+    .world_title2,
+    .sub_title1 {
+        font-size: 30px;
+    }
+    .sub_list_title {
+        top: 25%;
+    }
+    .sub_title3 {
+        width: 100%;
+    }
+    .sub_button {
+        padding: 8px 20px;
+        font-size: 14px;
     }
     .footer_1 {
         margin-left: 0px;
     }
     .footer_col_list_icon {
-        margin: 15px 0px 40px 0px;
-    }
-    .footer_col_big_title {
-        font-size: 24px;
-    }
-    .footer_col>a {
-        font-size: 18px;
-    }
-    .footer_icon {
-        font-size: 24px;
+        margin: 30px 0px;
     }
 }
 
@@ -233,9 +387,10 @@
         top: 80px;
         right: -100%;
         background-color: white;
-        width: 50%;
+        width: 100%;
         height: 500%;
         transition: 1s;
+        text-align: center;
     }
     .list_menu {
         display: grid;
@@ -243,15 +398,22 @@
     .list_menu li {
         margin-bottom: 20px;
     }
+    .list_menu li a {
+        font-size: 20px;
+    }
     .search {
-        width: 80%;
+        width: 100%;
         float: right;
     }
     .search_input {
         width: 90%;
     }
+    input[type="text" i] {
+        padding: 5px 20px;
+    }
     .search_btn {
-        right: 30px;
+        right: 40px;
+        top: 2px;
     }
     .checkbtn {
         display: block;
@@ -260,18 +422,15 @@
         right: 0;
     }
     .banner_content {
+        top: 10%;
         width: 27%;
-        position: absolute;
-        /* bottom: 326px; */
-        left: 33px;
-        top: 50px;
     }
     .banner_content_title1 {
         font-size: 20px;
         line-height: 20px;
     }
     .banner_content_title2 {
-        font-size: 10px;
+        font-size: 12px;
         letter-spacing: 0px;
     }
     .banner_content_title3 {
@@ -279,17 +438,17 @@
     }
     .banner_button {
         padding: 3px 8px;
-        font-size: 10px;
+        font-size: 12px;
     }
     .banner_content_title4 {
-        font-size: 10px;
+        font-size: 12px;
         letter-spacing: 0px;
     }
     .letgo_content1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .letgo_content2 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .go_list {
         margin-left: 0px;
@@ -298,15 +457,24 @@
     .go_image {
         width: 390px;
     }
-    .show_more {
-        margin: 0px 0px 50px 0px;
-    }
-    .show_more_button {
-        padding: 5px 50px 3px;
+    .go_content1 {
         font-size: 20px;
     }
+    .go_content2 {
+        font-size: 12px;
+    }
+    .show_more {
+        margin: 20px 0px 50px 0px;
+    }
+    .show_more_button {
+        padding: 5px 30px 3px;
+        font-size: 12px;
+    }
     .item_infor {
-        padding: 10px 0px 0px 20px;
+        padding: 40px;
+    }
+    .item_infor2 {
+        padding: 40px;
     }
     .infor_content1 {
         font-size: 20px;
@@ -316,11 +484,8 @@
         margin: 10px 0px;
     }
     .read_more_button {
-        padding: 3px 8px 0px;
+        padding: 3px 8px;
         font-size: 12px;
-    }
-    .item_infor2 {
-        padding: 10px 10px 0px 30px;
     }
     .hiking_title {
         top: 45px;
@@ -346,8 +511,17 @@
         font-size: 20px;
         line-height: 20px;
     }
+    .lorem_content {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .lorem_list_content {
+        margin: 30px 0px;
+    }
     .lorem_title1 {
         font-size: 20px;
+        margin-bottom: 5px;
     }
     .lorem_title2 {
         font-size: 12px;
@@ -361,7 +535,8 @@
     }
     .sub_list_title {
         top: 40px;
-        left: 100px;
+        left: 68px;
+        width: 70%;
     }
     .sub_title1 {
         font-size: 20px;
@@ -378,8 +553,8 @@
     }
     .sub_button {
         font-size: 12px;
-        top: 3px;
-        padding: 5px 10px 1px
+        top: 1px;
+        padding: 5px 10px
     }
     .footer {
         height: fit-content;
@@ -406,175 +581,12 @@
 }
 
 @media (max-width:376px) {
-    .logo {
-        margin: auto;
-    }
-    .nav_menu {
-        display: block;
-        position: absolute;
-        top: 80px;
-        right: -100%;
-        background-color: white;
-        width: 50%;
-        height: 500%;
-        transition: 1s;
-    }
-    .list_menu {
-        display: grid;
-    }
-    .list_menu li {
-        margin-bottom: 20px;
-    }
-    .search {
-        width: 80%;
-        float: right;
-    }
-    .search_input {
-        width: 90%;
-    }
-    .checkbtn {
-        display: block;
-    }
-    .nav_menu.show {
-        right: 0;
-    }
     .banner_content {
-        width: 27%;
-        position: absolute;
-        /* bottom: 326px; */
-        left: 33px;
-        top: 30px;
-    }
-    .banner_content_title1 {
-        font-size: 18px;
-        line-height: 20px;
-    }
-    .banner_content_title2 {
-        font-size: 10px;
-        letter-spacing: 0px;
-    }
-    .banner_content_title3 {
-        margin: 10px 0px;
-    }
-    .banner_button {
-        padding: 2px 8px 1px;
-        font-size: 8px;
-    }
-    .banner_content_title4 {
-        font-size: 8px;
-        letter-spacing: 0px;
-    }
-    .letgo_content1 {
-        font-size: 30px;
-    }
-    .letgo_content2 {
-        width: 50%;
-        margin: auto;
-        font-size: 10px;
-    }
-    .go_list {
-        margin-left: 0px;
-        margin-bottom: 20px;
+        width: 30%;
+        top: 10%;
+        left: 8%;
     }
     .go_image {
         width: 350px;
-    }
-    .item_infor {
-        padding: 10px 0px 0px 20px;
-    }
-    .infor_content1 {
-        font-size: 18px;
-    }
-    .infor_content2 {
-        font-size: 10px;
-        margin: 10px 0px;
-    }
-    .read_more_button {
-        padding: 3px 8px 0px;
-        font-size: 12px;
-    }
-    .item_infor2 {
-        padding: 10px 10px 0px 30px;
-    }
-    .hiking_title {
-        top: 45px;
-        left: 0;
-    }
-    .hiking_mountain_title {
-        font-size: 18px;
-    }
-    .hiking_mountain_title1 {
-        font-size: 10px;
-    }
-    .world_content {
-        top: 60px;
-        right: 50px;
-    }
-    .lorem_list {
-        height: fit-content;
-    }
-    .world_title1 {
-        font-size: 20px;
-    }
-    .world_title2 {
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .lorem_title1 {
-        font-size: 20px;
-    }
-    .lorem_title2 {
-        font-size: 12px;
-    }
-    .lorem_cotent1 {
-        font-size: 40px;
-    }
-    .lorem_cotent2,
-    .lorem_cotent3 {
-        font-size: 12px;
-    }
-    .sub_list_title {
-        top: 40px;
-        left: 100px;
-    }
-    .sub_title1 {
-        font-size: 18px;
-    }
-    .sub_title2 {
-        margin: 10px 0px;
-    }
-    .sub_title2,
-    .sub_input {
-        font-size: 10px;
-    }
-    .sub_title3 {
-        width: 100%;
-    }
-    .sub_button {
-        font-size: 10px;
-        top: 7px;
-        padding: 2px 10px 1px
-    }
-    .footer {
-        height: fit-content;
-        padding-left: 30px;
-    }
-    .footer_1 {
-        margin-left: 0px;
-    }
-    .footer_col_list_icon {
-        margin: 15px 0px 40px 0px;
-    }
-    .footer_col_big_title {
-        font-size: 18px;
-    }
-    .footer_col {
-        font-size: 14px;
-    }
-    .footer_col>a {
-        font-size: 14px;
-    }
-    .footer_icon {
-        font-size: 18px;
     }
 }
