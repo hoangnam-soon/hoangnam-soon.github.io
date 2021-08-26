@@ -441,7 +441,7 @@
         font-size: 12px;
     }
     .banner_content_title4 {
-        font-size: 12px;
+        font-size: 10px;
         letter-spacing: 0px;
     }
     .letgo_content1 {
@@ -496,6 +496,7 @@
     }
     .hiking_mountain_title1 {
         font-size: 12px;
+        width: 80%;
     }
     .world_content {
         top: 60px;
@@ -553,7 +554,7 @@
     }
     .sub_button {
         font-size: 12px;
-        top: 1px;
+        top: 0px;
         padding: 5px 10px
     }
     .footer {
