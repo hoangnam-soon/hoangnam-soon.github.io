@@ -238,7 +238,7 @@
 .hiking_title {
     position: absolute;
     top: 40%;
-    left: 23%;
+    left: 14%;
 }
 
 .hiking_mountain_title1 {
@@ -286,7 +286,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .lorem_content {
