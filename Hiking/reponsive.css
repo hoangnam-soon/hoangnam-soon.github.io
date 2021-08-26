@@ -21,7 +21,7 @@
         font-size: 20px;
     }
     .hiking_title {
-        left: 20%;
+        left: 8%;
     }
     .world_title1,
     .world_title2 {
@@ -37,6 +37,12 @@
 /* Anthor */
 
 @media (max-width:1200px) {
+    .navbar {
+        padding: 5px 80px;
+    }
+    .list_menu li a {
+        font-size: 18px;
+    }
     .banner_content {
         width: 25%;
     }
@@ -70,7 +76,7 @@
         font-size: 20px;
     }
     .hiking_title {
-        left: 12%;
+        left: 0;
     }
     .world_title1,
     .world_title2,
@@ -107,7 +113,7 @@
         margin-bottom: 20px;
     }
     .list_menu li a {
-        font-size: 24px;
+        font-size: 22px;
     }
     .search {
         width: 100%;
@@ -248,7 +254,7 @@
         margin-bottom: 20px;
     }
     .list_menu li a {
-        font-size: 24px;
+        font-size: 22px;
     }
     .search {
         width: 100%;
@@ -399,7 +405,7 @@
         margin-bottom: 20px;
     }
     .list_menu li a {
-        font-size: 20px;
+        font-size: 18px;
     }
     .search {
         width: 100%;
