@@ -44,6 +44,10 @@
     margin: 40px 0px 25px 0px;
 }
 
+.banner_content_title3 a {
+    display: flex;
+}
+
 .banner_button {
     border: none;
     outline: none;
@@ -75,6 +79,10 @@
     margin-top: 40px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.let_go a {
+    display: flex
 }
 
 .letgo_title {
@@ -175,6 +183,10 @@
     padding: 250px 60px 60px 110px;
 }
 
+.infor_button a {
+    display: flex;
+}
+
 .infor_content1 {
     font-size: 60px;
     font-weight: bolder;
@@ -238,7 +250,7 @@
 .hiking_title {
     position: absolute;
     top: 40%;
-    left: 14%;
+    left: 15%;
 }
 
 .hiking_mountain_title1 {
@@ -393,6 +405,10 @@
     width: 75%;
     margin: auto;
     position: relative;
+}
+
+.sub_title3 a {
+    display: flex;
 }
 
 .sub_input {
