@@ -54,7 +54,8 @@
     background-color: white;
     color: #776c64;
     border-radius: 25px;
-    padding: 8px 40px;
+    width: 50%;
+    padding: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +212,8 @@
     justify-content: center;
     align-items: center;
     border: none;
-    padding: 10px 60px;
+    width: 52%;
+    padding: 10px;
     background-color: #e2a355;
     font-size: 25px;
     color: white;
@@ -232,6 +234,12 @@
 .hiking_mountain {
     text-align: center;
     position: relative;
+    background-image: url("./img/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
 }
 
 .hiking_image {
@@ -248,9 +256,7 @@
 }
 
 .hiking_title {
-    position: absolute;
-    top: 40%;
-    left: 15%;
+    margin: auto;
 }
 
 .hiking_mountain_title1 {
@@ -372,6 +378,12 @@
 .sub {
     position: relative;
     text-align: center;
+    background-image: url("./img/banner6.jpg");
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 }
 
 .sub_img {
@@ -383,10 +395,8 @@
 }
 
 .sub_list_title {
-    position: absolute;
-    top: 35%;
-    left: 26%;
-    width: 50%;
+    margin: auto;
+    width: 70%;
 }
 
 .sub_title1 {

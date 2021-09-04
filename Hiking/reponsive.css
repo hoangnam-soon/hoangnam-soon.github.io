@@ -51,7 +51,7 @@
         font-size: 18px;
     }
     .banner_content {
-        width: 25%;
+        width: 30%;
     }
     .banner_content_title1 {
         font-size: 50px;
@@ -90,8 +90,8 @@
     .sub_title1 {
         font-size: 50px;
     }
-    .sub_list_title {
-        top: 25%;
+    .sub {
+        height: 700px;
     }
     .sub_title3 {
         width: 100%;
@@ -146,7 +146,7 @@
         display: block;
     }
     .banner_content {
-        width: 25%;
+        width: 50%;
     }
     .banner_content_title1 {
         font-size: 40px;
@@ -189,16 +189,23 @@
         font-size: 20px;
     }
     .item_infor {
+        text-align: center;
         padding: 50px;
     }
     .item_infor2 {
+        text-align: center;
         padding: 50px;
     }
     .infor_content1 {
         font-size: 40px;
     }
+    .infor_content2 {
+        width: 100%;
+    }
     .read_more_button {
         font-size: 20px;
+        display: flex;
+        margin: auto;
     }
     .hiking_title {
         left: 0%;
@@ -228,8 +235,8 @@
     .sub_title1 {
         font-size: 40px;
     }
-    .sub_list_title {
-        top: 25%;
+    .sub {
+        height: 600px;
     }
     .sub_title3 {
         width: 100%;
@@ -287,28 +294,28 @@
         display: block;
     }
     .banner_content {
-        width: 25%;
+        width: 55%;
     }
     .banner_content_title1 {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 24px;
+        line-height: 20px;
     }
     .banner_content_title2 {
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 3px;
     }
     .banner_content_title3 {
-        margin: 15px 0px;
+        margin: 10px 0px;
     }
     .banner_button {
         font-size: 14px;
         padding: 8px 20px;
     }
     .banner_content_title4 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .letgo_content1 {
-        font-size: 30px;
+        font-size: 24px;
     }
     .letgo_content2 {
         font-size: 14px;
@@ -317,9 +324,9 @@
         margin: auto;
         margin-top: 30px;
     }
-    .go_image {
+    /* .go_image {
         width: 480px;
-    }
+    } */
     .go_content1 {
         font-size: 20px;
     }
@@ -341,9 +348,14 @@
     .read_more_button {
         font-size: 20px;
     }
-    .hiking_title {
-        left: 0%;
-        top: 30%;
+    .hiking_mountain {
+        height: 600px;
+    }
+    .hiking_mountain_title {
+        font-size: 40px;
+    }
+    .hiking_mountain_title1 {
+        width: 80%;
     }
     .lorem_list {
         height: max-content;
@@ -369,8 +381,8 @@
     .sub_title1 {
         font-size: 30px;
     }
-    .sub_list_title {
-        top: 25%;
+    .sub {
+        height: 500px;
     }
     .sub_title3 {
         width: 100%;
@@ -436,7 +448,7 @@
     }
     .banner_content {
         top: 10%;
-        width: 27%;
+        width: 50%;
     }
     .banner_content_title1 {
         font-size: 20px;
@@ -504,6 +516,9 @@
         top: 45px;
         left: 0;
     }
+    .hiking_mountain {
+        height: 500px;
+    }
     .hiking_mountain_title {
         font-size: 20px;
     }
@@ -547,10 +562,8 @@
     .lorem_cotent3 {
         font-size: 12px;
     }
-    .sub_list_title {
-        top: 40px;
-        left: 68px;
-        width: 70%;
+    .sub {
+        height: 400px;
     }
     .sub_title1 {
         font-size: 20px;
@@ -596,7 +609,7 @@
 
 @media (max-width:376px) {
     .banner_content {
-        width: 30%;
+        width: 50%;
         top: 10%;
         left: 8%;
     }
