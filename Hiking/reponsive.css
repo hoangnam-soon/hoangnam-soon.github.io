@@ -51,7 +51,7 @@
         font-size: 18px;
     }
     .banner_content {
-        width: 30%;
+        width: 40%;
     }
     .banner_content_title1 {
         font-size: 50px;
@@ -161,7 +161,8 @@
     }
     .banner_button {
         font-size: 14px;
-        padding: 8px 20px;
+        padding: 8px;
+        width: 120px;
     }
     .banner_content_title4 {
         font-size: 14px;
@@ -187,6 +188,7 @@
     }
     .show_more_button {
         font-size: 20px;
+        width: 120px;
     }
     .item_infor {
         text-align: center;
@@ -206,6 +208,7 @@
         font-size: 20px;
         display: flex;
         margin: auto;
+        width: 120px;
     }
     .hiking_title {
         left: 0%;
@@ -242,7 +245,8 @@
         width: 100%;
     }
     .sub_button {
-        padding: 5px 40px;
+        padding: 5px;
+        width: 120px;
     }
     .footer_1 {
         margin-left: 0px;
@@ -391,7 +395,7 @@
         width: 100%;
     }
     .sub_button {
-        padding: 8px 20px;
+        padding: 8px;
         font-size: 14px;
     }
     .footer_1 {
@@ -399,6 +403,18 @@
     }
     .footer_col_list_icon {
         margin: 30px 0px;
+    }
+}
+
+@media (max-width:767px) {
+    .go_image {
+        width: 480px;
+    }
+}
+
+@media (max-width:560px) {
+    .go_image {
+        width: 400px;
     }
 }
 
@@ -465,7 +481,7 @@
         margin: 10px 0px;
     }
     .banner_button {
-        padding: 3px 8px;
+        padding: 5px;
         font-size: 12px;
     }
     .banner_content_title4 {
@@ -495,7 +511,7 @@
         margin: 20px 0px 50px 0px;
     }
     .show_more_button {
-        padding: 5px 30px 3px;
+        padding: 5px;
         font-size: 12px;
     }
     .item_infor {
@@ -512,7 +528,7 @@
         margin: 10px 0px;
     }
     .read_more_button {
-        padding: 3px 8px;
+        padding: 5px;
         font-size: 12px;
     }
     .hiking_title {
@@ -583,8 +599,8 @@
     }
     .sub_button {
         font-size: 12px;
-        top: 0px;
-        padding: 5px 10px
+        top: 1px;
+        padding: 5px;
     }
     .footer {
         height: fit-content;
