@@ -188,7 +188,6 @@
     }
     .show_more_button {
         font-size: 20px;
-        width: 120px;
     }
     .item_infor {
         text-align: center;
@@ -208,7 +207,6 @@
         font-size: 20px;
         display: flex;
         margin: auto;
-        width: 120px;
     }
     .hiking_title {
         left: 0%;
