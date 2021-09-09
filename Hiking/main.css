@@ -147,13 +147,14 @@
     outline: none;
     background-color: #7f7770;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bolder;
     transition: 1s;
 }
 
 .show_more_button:hover {
     background-color: #e2a355;
+    color: white;
 }
 
 .infor_item_img {
@@ -226,6 +227,7 @@
 
 .read_more_button:hover {
     background-color: #54524f;
+    color: white;
 }
 
 .hiking {
