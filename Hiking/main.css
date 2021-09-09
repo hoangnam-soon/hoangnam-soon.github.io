@@ -133,7 +133,7 @@
 .show_more {
     display: flex;
     justify-content: center;
-    margin: 60px 0px 140px 0px;
+    margin: 60px 0px 60px 0px;
 }
 
 .show_more_button {
