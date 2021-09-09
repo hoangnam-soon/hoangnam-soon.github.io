@@ -3,7 +3,7 @@
 }
 
 .home_banner {
-    padding-top: 90px;
+    margin: 90px 0px;
 }
 
 .banner {
@@ -77,7 +77,7 @@
 
 .let_go {
     background-image: url("./img/banner2.jpg");
-    margin-top: 40px;
+    /* margin-top: 40px; */
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -157,6 +157,10 @@
     color: white;
 }
 
+.infor {
+    margin: 90px 0px;
+}
+
 .infor_item_img {
     width: 100%;
 }
@@ -230,9 +234,10 @@
     color: white;
 }
 
-.hiking {
+
+/* .hiking {
     margin: 30px 0px;
-}
+} */
 
 .hiking_mountain {
     text-align: center;
@@ -270,6 +275,7 @@
 
 .the_world {
     position: relative;
+    margin: 90px 0px;
 }
 
 .world_image {
@@ -306,8 +312,8 @@
     background-image: url("./img/banner5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 60px;
-    padding-bottom: 60px;
+    /* margin-top: 60px;
+    padding-bottom: 60px; */
 }
 
 .lorem_content {
@@ -387,6 +393,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    margin: 90px 0px;
 }
 
 .sub_img {
