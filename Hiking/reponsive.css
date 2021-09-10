@@ -483,6 +483,7 @@
     .banner_button {
         padding: 5px;
         font-size: 12px;
+        width: 120px;
     }
     .banner_content_title4 {
         font-size: 10px;
@@ -513,6 +514,7 @@
     .show_more_button {
         padding: 5px;
         font-size: 12px;
+        width: 120px;
     }
     .infor {
         margin: 40px 0px;
@@ -533,6 +535,7 @@
     .read_more_button {
         padding: 5px;
         font-size: 12px;
+        width: 120px;
     }
     .hiking_title {
         top: 45px;
