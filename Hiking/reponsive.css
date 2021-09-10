@@ -462,6 +462,9 @@
     .nav_menu.show {
         right: 0;
     }
+    .home_banner {
+        margin: 90px 0px 40px 0px;
+    }
     .banner_content {
         top: 10%;
         width: 50%;
@@ -511,6 +514,9 @@
         padding: 5px;
         font-size: 12px;
     }
+    .infor {
+        margin: 40px 0px;
+    }
     .item_infor {
         padding: 40px;
     }
@@ -541,6 +547,9 @@
     .hiking_mountain_title1 {
         font-size: 12px;
         width: 80%;
+    }
+    .the_world {
+        margin: 40px 0px;
     }
     .world_content {
         top: 60px;
@@ -580,6 +589,7 @@
     }
     .sub {
         height: 400px;
+        margin: 40px 0px;
     }
     .sub_title1 {
         font-size: 20px;
