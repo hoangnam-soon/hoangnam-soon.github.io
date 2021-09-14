@@ -199,6 +199,12 @@
     .infor_content1 {
         font-size: 40px;
     }
+    .infor_destop {
+        display: none;
+    }
+    .infor_mobie {
+        display: block;
+    }
     .infor_content2 {
         width: 100%;
     }
@@ -245,8 +251,21 @@
         padding: 5px;
         width: 120px;
     }
+    .footer {
+        padding-left: 120px;
+    }
     .footer_1 {
         margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .infor {
+        margin: 40px 0px;
+    }
+    .the_world {
+        margin: 40px 0px;
+    }
+    .sub {
+        margin: 40px 0px;
     }
 }
 
@@ -386,7 +405,7 @@
         font-size: 30px;
     }
     .sub {
-        height: 500px;
+        height: 400px;
     }
     .sub_title3 {
         width: 100%;
@@ -406,6 +425,9 @@
 @media (max-width:767px) {
     .go_image {
         width: 480px;
+    }
+    .footer {
+        padding-left: 60px;
     }
 }
 
@@ -517,7 +539,7 @@
         width: 120px;
     }
     .infor {
-        margin: 40px 0px;
+        margin: 20px 0px;
     }
     .item_infor {
         padding: 40px;
@@ -542,7 +564,7 @@
         left: 0;
     }
     .hiking_mountain {
-        height: 500px;
+        height: 400px;
     }
     .hiking_mountain_title {
         font-size: 20px;
@@ -552,7 +574,8 @@
         width: 80%;
     }
     .the_world {
-        margin: 40px 0px;
+        margin-top: -20px;
+        margin-bottom: 20px;
     }
     .world_content {
         top: 60px;
@@ -592,7 +615,7 @@
     }
     .sub {
         height: 400px;
-        margin: 40px 0px;
+        margin: 10px 0px;
     }
     .sub_title1 {
         font-size: 20px;

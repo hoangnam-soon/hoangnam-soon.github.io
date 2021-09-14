@@ -180,6 +180,10 @@
     padding: 0px !important;
 }
 
+.infor_mobie {
+    display: none;
+}
+
 .item_infor {
     /* width: 71%; */
     padding: 250px 110px 60px 60px;
